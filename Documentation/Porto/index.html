@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<title>Porto - Responsive HTML5 Template - Documentation</title>		
+		<meta name="keywords" content="HTML5 Template" />
+		<meta name="description" content="Porto - Responsive HTML5 Template - Documentation">
+		<meta name="author" content="okler.net">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.css">
+		<link rel="stylesheet" href="assets/vendor/fontawesome/css/font-awesome.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="assets/css/docs.css">
+
+	</head>
+	<body data-spy="scroll" data-target=".nav-docs" data-offset="50">
+
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-full">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="top">
+							<ul>
+								<li>
+									<img class="logo" height="30" src="assets/img/logo.png" alt="Porto">
+								</li>
+								<li>
+									<span>Version: <strong class="version">8.0.0</strong></span>
+								</li>
+								<li class="hidden-xs">
+									<span>Created: <strong><i class="fa fa-calendar"></i> 02/15/2013</strong></span>
+								</li>
+								<li class="hidden-xs">
+									<span>Latest Update: <strong><i class="fa fa-calendar"></i> 03/30/2020</strong></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a target="_blank" href="http://www.okler.net/forums/forums/template-porto/faqs/">FAQ's</a></li>
+							<li><a target="_blank" href="http://www.okler.net/open-a-ticket/">Open a Ticket</a></li>
+							<li><a target="_blank" href="http://themeforest.net/item/porto-responsive-html5-template/4106987/support?ref=Okler#new_item_support_inquiry_form">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+			<div class="jumbotron">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-md-offset-2 logo-main">
+							<img src="assets/img/logo-main.png" alt="Porto">
+						</div>
+						<div class="col-md-4 col-md-offset-1">
+							<h1>Documentation</h1>
+							<ul>
+								<li>
+									<span>Version: <strong class="version">8.0.0</strong></span>
+								</li>
+								<li>
+									<span>Created: <strong><i class="fa fa-calendar"></i> 02/15/2013</strong></span>
+								</li>
+								<li>
+									<span>Latest Update: <strong><i class="fa fa-calendar"></i> 03/30/2020</strong></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 center">
+							<p class="lead">Thank you for purchasing the <strong>#1 selling</strong> HTML Site template on ThemeForest. <br> If you have any questions that are beyond the scope of this help file, please feel free to email via our user page contact form or to our support forum at <a target="_blank" href="http://www.okler.net/">http://www.okler.net.</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<aside id="sidebar" class="sidebar">
+			<div class="nav-docs">
+				<ul class="nav nav-pills nav-stacked">
+					<li><a href="#tips">Tips</a></li>
+					<li><a href="#files_structure">Files Structure</a></li>
+					<li><a href="#javascript">Javascript</a></li>
+					<li><a href="#html_structure">HTML Structure</a></li>
+					<li><a href="#css_structure">CSS Structure</a></li>
+					<li><a href="#customization_styles">Customization &amp; Styles</a></li>
+					<li><a href="#skin">Skin</a></li>
+					<li><a href="#RTL">RTL</a></li>
+					<li><a href="#icons">Icons</a></li>
+					<li><a href="#lightbox">Lightbox</a></li>
+					<li><a href="#video_background">Video Background</a></li>
+					<li><a href="#newsletter">Newsletter</a></li>
+					<li><a href="#twitter_feed">Twitter Feed</a></li>
+					<li><a href="#instagram_feed">Instagram Feed</a></li>
+					<li><a href="#google_maps">Google Maps</a></li>
+					<li><a href="#contactform">Contact Form</a></li>
+					<li><a href="#contactformty">Contact Form - Thank you page</a></li>
+					<li><a href="#googlerecaptcha">Google Recaptcha v2</a></li>
+					<li><a href="#googlerecaptchav3">Google Recaptcha v3</a></li>
+					<li><a href="#revslideraddons">Revolution Slider - Addons</a></li>
+					<li><a href="#facebookComments">Facebook Comments</a></li>
+					<li><a href="#disqusComments">Disqus Comments</a></li>
+					<li><a href="#effects">Effects</a></li>
+					<li><a href="#admin_extension">Admin Extension</a></li>
+					<li><a href="#changelog">Changelog</a></li>
+				</ul>
+			</div>
+		</aside>
+		<div id="main" class="main">
+
+			<section id="tips">
+				<h2>Tips</h2>
+				<div class="alert alert-tip push-top" role="alert">Most of the questions are already answered in the FAQ's: <a target="_blank" href="http://www.okler.net/forums/forums/template-porto/faqs/">http://www.okler.net/forums/forums/template-porto/faqs/</a></div>
+				<div class="alert alert-tip" role="alert"><strong>Due to local security restrictions, some things will not work locally, especially in Chrome. But everything will work once the files have been uploaded to your website/server.</strong></div>
+				<div class="alert alert-tip" role="alert">Use Developer Tools from browser.</div>
+				<div class="alert alert-tip" role="alert">Do not start from scratch, use an existing page from the demo and modify it to learn how it works.</div>
+				<div class="alert alert-tip" role="alert">Getting an error message? Someone might have seen it too, try a google search for a quick fix.</div>
+				<div class="alert alert-tip" role="alert">Explore the live demo for pages ideas and sample code.</div>
+			</section>
+
+			<section id="files_structure">
+				<h2>Files Structure</h2>
+				<ul>
+					<li><code>/ajax</code> (Ajax files)</li>
+					<li>
+						<code>/css</code> (Template CSS)</li>
+						<ul>
+							<li><code>/demos</code> (Demos CSSs)</li>
+							<li><code>/fonts</code> (Font Faces, Font Awesome, etc..)</li>
+							<li>
+								<code>/skins</code>
+								<ul>
+									<li><code>default.css</code></li>
+									<li><code>...</code> (Create your own skin)</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><code>/img</code> (All Images)</li>
+					<li>
+						<code>/js</code> (Template JS)</li>
+						<ul>
+							<li><code>/views</code> (JS to run in specific pages. I.E: Home or Contact Us)</li>
+						</ul>
+					</li>
+					<li><code>/master</code> (You don't need to include that folder in your project, it has only the Style Switcher functions)</li>
+					<li><code>/php</code> (PHP Helpers - I.E: Contact Us form.)</li>
+					<li><code>/vendor</code> (All external libs. We keep all of them in this folder to make updates easily.)</li>
+					<li><code>/video</code> (All Videos)</li>
+				</ul>
+			</section>
+
+			<section id="javascript">
+				<h2>Javascript</h2>
+
+				<p>It's possible to change the JS settings by extending the defaults from the template, that way is so much easier to update the theme changing only one JS file.<br>Here are a few samples on how to do that:</p><br>
+
+				<h4>Changing Settings</h4><br>
+
+				1) <strong>Changing the "scroll to top" icon:</strong>
+				(js/custom.js)
+<pre>
+$.extend(theme.PluginScrollToTop.defaults, {
+	iconClass: 'fa fa-chevron-up'
+});
+</pre>
+				<br><br>
+
+				2) <strong>Changing the "word rotate" default delay:</strong>
+				(js/custom.js)
+<pre>
+$.extend(theme.PluginWordRotate.defaults, {
+	delay: 3000
+});
+</pre>
+				<br><br>
+
+				You can find all the defaults of the plugins and partials in the file js/theme.js as you can see here:
+				<br><img class="img-responsive" src="assets/img/20141001-3wm-114kb.jpg" />
+
+				<br><br>
+
+				<h4>Changing Plugins Options</h4><br>
+
+				The template includes a very simple way to configure the elements that are initialized automatically, such as the sliders, you just need to put the settings in the "data-plugin-options" attribute, as you can see below:
+
+<pre>
+&lt;div id=&quot;revolutionSlider&quot; class=&quot;slider rev_slider&quot; data-version=&quot;5.4.8&quot; data-plugin-revolution-slider data-plugin-options=&quot;{'delay': 9000, 'gridwidth': 1170, 'gridheight': 670}&quot;&gt;
+</pre>
+
+				<br>It works the same way for most of the plugins included in the template: owlCarousel, Word Rotate, Twitter Feed, etc...
+
+				<br><br><br>
+
+				<strong>If you want to disable the auto initialization you can just add a class "manual" or remove the data-plugin-* attribute:</strong>
+
+<pre>
+&lt;div id=&quot;revolutionSlider&quot; class=&quot;slider rev_slider manual&quot; data-version=&quot;5.4.8&quot;&gt;
+</pre>
+
+				<br>So now you can initialize that using the standard JS mode:
+
+<pre>
+$(document).ready(function() {
+	$('#revolutionSlider').revolution({
+		delay:9000,
+		gridwidth:1170,
+		gridheight:670
+		...
+		...
+	});
+});
+</pre>
+
+				<br><br>
+
+				<h4>Remove/Disable a Plugin or Partial</h4><br>
+
+				If you want to remove/disable a plugin or partial that has a "initialize" function completely, follow this example:
+				(js/custom.js)
+<pre>
+theme.PluginScrollToTop.initialize = function() {};
+</pre>
+
+				<br>You can find all the available plugins and partials in the file js/theme.init.js as you can see here:
+				<br><img class="img-responsive" src="assets/img/20141001-s5i-168kb.jpg" />
+
+				<br><br><br>
+
+			</section>
+
+			<section id="html_structure">
+				<h2>HTML Structure</h2>
+				<p>The template is based on <strong>Bootstrap 4</strong> Framework - <a href="http://getbootstrap.com">http://getbootstrap.com</a></p>
+				<p>Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases.</p>
+				<br><br>
+<pre>
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-12&quot;&gt;
+		Level 1 column
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-md-6&quot;&gt;Level 2&lt;/div&gt;
+			&lt;div class=&quot;col-md-6&quot;&gt;Level 2&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<br>
+<p>If you need more information, please visit this site: <a href="https://getbootstrap.com/docs/4.1/layout/grid/">https://getbootstrap.com/docs/4.1/layout/grid/</a></p><br>
+
+				<h4>Grid Layout with 5 columns</h4>
+
+				If you want a grid layout with 5 columns:
+<pre>
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-1-5&quot;&gt;
+		Column 1
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-1-5&quot;&gt;
+		Column 2
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-1-5&quot;&gt;
+		Column 3
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-1-5&quot;&gt;
+		Column 4
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-1-5&quot;&gt;
+		Column 5
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+				<br>
+
+			</section>
+
+			<section id="css_structure">
+				<h2>CSS Structure</h2>
+				<p>The organization of the CSS is one of our priorities.</p>
+				<p>These are the CSS file we're using in the template:</p><br>
+				<ul>
+					<li><code>theme.css</code> - (The basic layout structure styles)</li>
+					<li><code>theme-elements.css</code> - (Elements such as sliders, boxes, titles, etc...)</li>
+					<li><code>theme-shop.css</code> - (Shop Pages styles)</li>
+					<li><code>theme-blog.css</code> (Blog Pages styles)</li>
+					<li><code>custom.css</code> (Add all customizations into this file)</li>
+				</ul>
+
+				<br><br>
+
+				<h3>CSS Helper Classes</h3><br>
+				<h4>Bootstrap Helpers</h4><br>
+				<p>Bootstrap 4 comes with various utilities/helper classes. Access the link below to see all possibilities:</p>
+				<a href="https://getbootstrap.com/docs/4.1/utilities/text/">https://getbootstrap.com/docs/4.1/utilities/text/</a>
+				<br>
+				<br>
+				<h4>Text Helpers</h4><br>
+				<table width="100%" class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th>
+								Class</th>
+							<th>
+								Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<strong>From:</strong> .text-1<br> <strong>Until:</strong> .text-15</td>
+							<td>
+								Changes text font size in all resolutions</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .text-sm-1<br> <strong>Until:</strong> .text-sm-15</td>
+							<td>
+								Changes text font size from small resolution</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .text-md-1<br> <strong>Until:</strong> .text-md-15</td>
+							<td>
+								Changes text font size from medium resolution</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .text-lg-1<br> <strong>Until:</strong> .text-lg-15</td>
+							<td>
+								Changes text font size from large resolution</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .text-xl-1<br> <strong>Until:</strong> .text-xl-15</td>
+							<td>
+								Changes text font size from extra large resolution</td>
+						</tr>
+
+						<tr>
+							<td>
+								<strong>From:</strong> .line-height-1<br> <strong>Until:</strong> .line-height-9</td>
+							<td>
+								Changes text line height in all resolutions</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .line-height-sm-1<br> <strong>Until:</strong> .line-height-sm-9</td>
+							<td>
+								Changes text line height from small resolution</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .line-height-md-1<br> <strong>Until:</strong> .line-height-md-9</td>
+							<td>
+								Changes text line height from medium resolution</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .line-height-lg-1<br> <strong>Until:</strong> .line-height-lg-9</td>
+							<td>
+								Changes text line height from large resolution</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .line-height-xl-1<br> <strong>Until:</strong> .line-height-xl-9</td>
+							<td>
+								Changes text line height from extra large resolution</td>
+						</tr>
+						<tr>
+							<td>
+								.line-height-initial</td>
+							<td>
+								Changes text line height in all resolutions</td>
+						</tr>
+						<tr>
+							<td>
+								.line-height-sm-initial</td>
+							<td>
+								Changes text line height from small resolution</td>
+						</tr>
+						<tr>
+							<td>
+								.line-height-md-initial</td>
+							<td>
+								Changes text line height from medium resolution</td>
+						</tr>
+						<tr>
+							<td>
+								.line-height-lg-initial</td>
+							<td>
+								Changes text line height from large resolution</td>
+						</tr>
+						<tr>
+							<td>
+								.line-height-xl-initial</td>
+							<td>
+								Changes text line height from extra large resolution</td>
+						</tr>
+
+						<tr>
+							<td>
+								.text-uppercase</td>
+							<td>
+								Uppercase text</td>
+						</tr>
+						<tr>
+							<td>
+								.text-lowercase</td>
+							<td>
+								Lowercase text</td>
+						</tr>
+						<tr>
+							<td>
+								.text-capitalize</td>
+							<td>
+								Capitalize text</td>
+						</tr>
+						<tr>
+							<td>
+								.text-transfrom-none</td>
+							<td>
+								None text transform</td>
+						</tr>
+
+						<tr>
+							<td>
+								.text-decoration-none</td>
+							<td>
+								None text decoration</td>
+						</tr>
+
+						<tr>
+							<td>
+								.text-muted</td>
+							<td>
+								Muted text</td>
+						</tr>
+
+						<tr>
+							<td>
+								.font-weight-light</td>
+							<td>
+								Changes text font weight</td>
+						</tr>
+						<tr>
+							<td>
+								.font-weight-normal</td>
+							<td>
+								Changes text font weight</td>
+						</tr>
+						<tr>
+							<td>
+								.font-weight-semibold</td>
+							<td>
+								Changes text font weight</td>
+						</tr>
+						<tr>
+							<td>
+								.font-weight-bold</td>
+							<td>
+								Changes text font weight</td>
+						</tr>
+						<tr>
+							<td>
+								.font-weight-extra-bold</td>
+							<td>
+								Changes text font weight</td>
+						</tr>
+
+						<tr>
+							<td>
+								.ls-0</td>
+							<td>
+								Changes text letter spacing</td>
+						</tr>
+						<tr>
+							<td>
+								.negative-ls-1</td>
+							<td>
+								Changes text letter spacing</td>
+						</tr>
+						<tr>
+							<td>
+								.negative-ls-2</td>
+							<td>
+								Changes text letter spacing</td>
+						</tr>
+						<tr>
+							<td>
+								.negative-ls-3</td>
+							<td>
+								Changes text letter spacing</td>
+						</tr>
+						<tr>
+							<td>
+								.positive-ls-1</td>
+							<td>
+								Changes text letter spacing</td>
+						</tr>
+						<tr>
+							<td>
+								.positive-ls-2</td>
+							<td>
+								Changes text letter spacing</td>
+						</tr>
+						<tr>
+							<td>
+								.positive-ls-3</td>
+							<td>
+								Changes text letter spacing</td>
+						</tr>
+
+						<tr>
+							<td>
+								.text-color-primary
+							</td>
+							<td>
+								Changes text color to the primary color
+							</td>
+						</tr>
+						<tr>
+							<td>
+								.text-color-secondary
+							</td>
+							<td>
+								Changes text color to the secondary color
+							</td>
+						</tr>
+						<tr>
+							<td>
+								.text-color-tertiary
+							</td>
+							<td>
+								Changes text color to the tertiary color
+							</td>
+						</tr>
+						<tr>
+							<td>
+								.text-color-quaternary
+							</td>
+							<td>
+								Changes text color to the quaternary color
+							</td>
+						</tr>
+						<tr>
+							<td>
+								.text-color-dark
+							</td>
+							<td>
+								Changes text color to the dark color
+							</td>
+						</tr>
+						<tr>
+							<td>
+								.text-color-light
+							</td>
+							<td>
+								Changes text color to the light color
+							</td>
+						</tr>
+						
+					</tbody>
+				</table>
+				<br>
+				<h4>Others</h4>
+				<table width="100%" class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th>
+								Class</th>
+							<th>
+								Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								.opacity-0</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+						<tr>
+							<td>
+								.opacity-1</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+						<tr>
+							<td>
+								.opacity-2</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+						<tr>
+							<td>
+								.opacity-3</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+						<tr>
+							<td>
+								.opacity-4</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+						<tr>
+							<td>
+								.opacity-5</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+						<tr>
+							<td>
+								.opacity-6</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+						<tr>
+							<td>
+								.opacity-7</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+						<tr>
+							<td>
+								.opacity-8</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+						<tr>
+							<td>
+								.opacity-9</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+						<tr>
+							<td>
+								.opacity-10</td>
+							<td>
+								Changes element opacity</td>
+						</tr>
+
+						<tr>
+							<td>
+								.scale-1</td>
+							<td>
+								Changes element transform scale</td>
+						</tr>
+						<tr>
+							<td>
+								.scale-2</td>
+							<td>
+								Changes element transform scale</td>
+						</tr>
+						<tr>
+							<td>
+								.scale-3</td>
+							<td>
+								Changes element transform scale</td>
+						</tr>
+						<tr>
+							<td>
+								.scale-4</td>
+							<td>
+								Changes element transform scale</td>
+						</tr>
+						<tr>
+							<td>
+								.scale-5</td>
+							<td>
+								Changes element transform scale</td>
+						</tr>
+						<tr>
+							<td>
+								.scale-6</td>
+							<td>
+								Changes element transform scale</td>
+						</tr>
+
+						<tr>
+							<td>
+								.top-auto</td>
+							<td>
+								Changes element top position</td>
+						</tr>
+						<tr>
+							<td>
+								.bottom-auto</td>
+							<td>
+								Changes element bottom position</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .top-0<br> <strong>Until:</strong> .top-10</td>
+							<td>
+								Changes element top position</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .bottom-0<br> <strong>Until:</strong> .bottom-10</td>
+							<td>
+								Changes element bottom position</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .left-0<br> <strong>Until:</strong> .left-10</td>
+							<td>
+								Changes element left position</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>From:</strong> .right-0<br> <strong>Until:</strong> .right-10</td>
+							<td>
+								Changes element right position</td>
+						</tr>
+
+						<tr>
+							<td>
+								.p-relative</td>
+							<td>
+								Changes position to relative</td>
+						</tr>
+						<tr>
+							<td>
+								.p-absolute</td>
+							<td>
+								Changes position to absolute</td>
+						</tr>
+						<tr>
+							<td>
+								.p-fixed</td>
+							<td>
+								Changes position to fixed</td>
+						</tr>
+						<tr>
+							<td>
+								.p-static</td>
+							<td>
+								Changes position to static</td>
+						</tr>
+
+						<tr>
+							<td>
+								.box-shadow-none</td>
+							<td>
+								Remove box shadow</td>
+						</tr>
+
+						<tr>
+							<td>
+								.cur-pointer</td>
+							<td>
+								Changes cursor to pointer</td>
+						</tr>
+
+						<tr>
+							<td>
+								.outline-none</td>
+							<td>
+								Changes outline to none</td>
+						</tr>
+
+						<tr>
+							<td>
+								.overflow-hidden</td>
+							<td>
+								Changes overflow to hidden</td>
+						</tr>
+						<tr>
+							<td>
+								.overflow-visible</td>
+							<td>
+								Changes overflow to visible</td>
+						</tr>
+
+						<tr>
+							<td>
+								.z-index-0</td>
+							<td>
+								Changes element z-index</td>
+						</tr>
+						<tr>
+							<td>
+								.z-index-1</td>
+							<td>
+								Changes element z-index</td>
+						</tr>
+						<tr>
+							<td>
+								.z-index-2</td>
+							<td>
+								Changes element z-index</td>
+						</tr>
+						<tr>
+							<td>
+								.z-index-3</td>
+							<td>
+								Changes element z-index</td>
+						</tr>
+
+						<tr>
+							<td>
+								.no-borders</td>
+							<td>
+								Remove element borders</td>
+						</tr>
+						<tr>
+							<td>
+								.rounded</td>
+							<td>
+								Changes border radius</td>
+						</tr>
+						<tr>
+							<td>
+								.b-thin</td>
+							<td>
+								Changes border width</td>
+						</tr>
+						<tr>
+							<td>
+								.b-normal</td>
+							<td>
+								Changes border width</td>
+						</tr>
+						<tr>
+							<td>
+								.b-thick</td>
+							<td>
+								Changes border width</td>
+						</tr>
+
+						<tr>
+							<td>
+								.ws-nowrap</td>
+							<td>
+								Changes white space</td>
+						</tr>
+						<tr>
+							<td>
+								.ws-normal</td>
+							<td>
+								Changes white space</td>
+						</tr>
+
+						<tr>
+							<td>
+								.ws-auto-mobile</td>
+							<td>
+								Changes width to auto on mobile devices</td>
+						</tr>
+						<tr>
+							<td>
+								.w-100-mobile</td>
+							<td>
+								Changes width to 100% on mobile devices</td>
+						</tr>
+						<tr>
+							<td>
+								.overlay</td>
+							<td>
+								Adds an overlay effect when mouse hover</td>
+						</tr>
+						<tr>
+							<td>
+								.overlay .overlay-show</td>
+							<td>
+								Adds an overlay effect always visible</td>
+						</tr>
+						<tr>
+							<td>
+								.overlay .overlay-show .overlay-op-5</td>
+							<td>
+								Adds an overlay effect always visible with opacity level 0.5 (possible values for opacity is from "-op-1" until "-op-9")</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</section>
+
+			<section id="customization_styles">
+				<h2>Customization &amp; Styles</h2>
+				<br>
+				<h4>Colors</h4>
+				<p>
+					The style switcher was made to support unlimited skin colors, for that we use <strong>Less </strong>(<a href="http://www.lesscss.org/">http://www.lesscss.org/</a>) to process the CSS dinamically in the demo and show the color right away.
+					<br>You don't need to use LESS in your project, after you done customizing your skin you may want to grab the generated code and save it in a file in the folder:<strong> /css/skins/(skin-name).css</strong><br>
+					 &nbsp;
+					<br><a href="#skin">Learn More: How to change the Skin</a><br><br>
+				</p>
+				<h4>Layout Style (Normal/Boxed)</h4>
+				<p> The template has two different layout modes, Wide and Boxed. The wide one is the default option, if you want to use the Boxed version, add the following class in the &lt;html&gt;:
+				</p>
+<pre>
+&lt;html class=&quot;boxed&quot;&gt;
+</pre>
+					<br>
+					 You can also customize the background color or image.<br>
+					 &nbsp;
+				</p>
+				<h4>Background Color (Light/Dark)</h4>
+				<p> The template has two different background colors, Light and Dark. The light one is the default option, if you want to use the Dark version, add the following class in the &lt;html&gt;:
+				</p>
+<pre>
+&lt;html class=&quot;dark&quot;&gt;
+</pre>
+					 &nbsp;
+				</p>
+				<h4>Fonts</h4>
+				<p> To change the embedded font, please take a look in the head part of the website and you will find this tag:
+				</p>
+<pre>
+&lt;link href=&quot;http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+</pre>
+					 To change the font, first go to http://www.google.com/webfonts choose a font and use the generated code.
+				</p><br>
+
+			</section>
+
+
+			<section id="skin">
+				<h2>Skin</h2>
+				<p>You can generate your own skin color:</p> <br><br> <img src="assets/img/20150729-3sj-435kb.jpg" /><br><br>
+
+				<img src="assets/img/20130227-3jo-39kb.jpg" /><br><br>
+
+				<p>Copy that and save as a css skin file (css/skins/default.css)</p>
+
+				<p><strong>Warning:</strong> Make sure you generate the skin with the correct version, using the preview URL:<br> 
+					– <a href="http://preview.oklerthemes.com/porto/7.0.0/" target="_blank">http://preview.oklerthemes.com/porto/7.0.0/</a> <br>
+					– <a href="http://preview.oklerthemes.com/porto/6.2.1/" target="_blank">http://preview.oklerthemes.com/porto/6.2.1/</a> <br>
+					– <a href="http://preview.oklerthemes.com/porto/5.7.2/" target="_blank">http://preview.oklerthemes.com/porto/5.7.2/</a> <br>
+					…</p>
+
+			</section>
+
+			<section id="RTL">
+				<h2>RTL</h2>
+				<p>To activate the RTL mode please follow the steps:</p><br>
+
+				1) Add the "dir" attribute in the HTML tag:
+				<br><img src="assets/img/20150102-4g7-48kb.jpg" class="img-responsive" /><br><br>
+
+				2) <strong>Copy all the files</strong> from the folder: <code>HTML/master/rtl/css</code> to the default css folder <code>HTML/css</code>.<br><br>
+
+				3) Add the "rtl-" prefix in the files:
+
+				<br><img src="assets/img/2015-05-14_14-16.jpg" class="img-responsive" /><br><br>
+
+			</section>
+
+			<section id="icons">
+				<h2>Icons</h2>
+				<p><strong>Font Awesome</strong> is a @font-face iconset that you can change size and color of the icons using CSS.<br><br>
+					If you need more information, please visit this site: <a href="http://fontawesome.io/">http://fontawesome.io/</a>
+				</p>
+<pre>
+&lt;i class=&quot;fa fa-edit&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-search&quot;&gt;&lt;/i&gt;
+...
+</pre>
+<br>
+
+				<p><strong>Simple Line Icons</strong> is a @font-face iconset that you can change size and color of the icons using CSS.<br><br>
+					If you need more information, please visit this site: <a href="https://github.com/thesabbir/simple-line-icons">https://github.com/thesabbir/simple-line-icons</a>
+				</p>
+<pre>
+&lt;i class=&quot;icons icon-user&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;icons icon-people&quot;&gt;&lt;/i&gt;
+...
+</pre>
+			</section>
+
+
+
+			<section id="lightbox">
+				<h2>Lightbox</h2>
+				<p>The lightbox is driven by <strong>Magnific Popup </strong>script.</p>
+
+<br><strong>Here's an example of usage:</strong></p>
+
+<pre>
+&lt;a class=&quot;img-thumbnail lightbox&quot; title=&quot;Open Lightbox&quot; href=&quot;img/projects/project-4.jpg&quot; data-plugin-options=&quot;{&#39;type&#39;:&#39;image&#39;}&quot;&gt;
+	&lt;img class=&quot;img-responsive&quot; src=&quot;img/projects/project-4.jpg&quot;&gt;
+&lt;/a&gt;
+</pre>
+
+				<p>For more information check the <a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/documentation.html">documentation</a>.</p>
+				<p><a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a></p>
+			</section>
+
+			<section id="video_background">
+				<h2>Video Background</h2>
+
+<p>The video background are driven by the Vide Plugin - <a target="_blank" href="https://github.com/VodkaBears/Vide">https://github.com/VodkaBears/Vide</a><br>
+<br>
+<strong>Here's an example of usage:</strong></p>
+
+<pre>
+&lt;section class=&quot;video section section-video&quot; data-video-path=&quot;video/memory-of-a-woman&quot; data-plugin-video-background data-plugin-options=&quot;{'posterType': 'jpg', 'position': '50% 50%', 'overlay': true}&quot;&gt;
+</pre>
+
+<p>
+Prepare your video in several formats like '.webm', '.mp4' for cross browser compatability, also add a poster with <code>.jpg</code>, <code>.png</code> or <code>.gif</code> extension and set in the attribute data-video-path.</p>
+
+			<p>Here's all possible options you can define trough <code>data-plugin-options="{....}"</code>:</p>
+			<img src="assets/img/video-opts.jpg" class="img-responsive" /><br><br>
+
+
+			</section>
+
+			<section id="newsletter">
+				<h2>Newsletter</h2>
+
+				If you want to use the newsletter you need to have a MailChimp account (the funcional Newsletter works only with MailChimp - <a href="http://mailchimp.com/" rel="nofollow">http://mailchimp.com/</a>).
+
+				Once you have the MailChimp account you have to configure the subscription file with your APIKey, ListID and set the Datacenter. Open the file <code>/php/newsletter-subscribe.php</code> and change the variables:<br><br>
+
+<pre>
+$apiKey = 'your-api-key';
+</pre>
+-How get your Mailchimp API KEY - <a href="http://kb.mailchimp.com/article/where-can-i-find-my-api-key" rel="nofollow">http://kb.mailchimp.com/article/where-can-i-find-my-api-key</a>
+<br><br><br>
+<pre>
+$listId = 'your-list-id';
+</pre>
+				- How to get your Mailchimp LIST ID - <a href="http://kb.mailchimp.com/article/how-can-i-find-my-list-id" rel="nofollow">http://kb.mailchimp.com/article/how-can-i-find-my-list-id</a>
+
+			</section>
+
+			<section id="twitter_feed">
+				<h2>Twitter Feed</h2>
+				1) Open up the HTML files and put your twitter username.
+				<br><br><img class="img-responsive" src="assets/img/20141001-c40-78kb.jpg" />
+
+				<br><br>
+				2) Go to: <strong><a href="https://developer.twitter.com/en/apps" target="_blank">https://developer.twitter.com/en/apps</a></strong>
+
+				<br><br>
+				3) Make sure you have a Developer Twitter Account. If not, follow the instructions to create a new developer account. When you is logged in with your developer account click on "Create an app":
+				<br><img class="img-responsive" src="assets/img/tuto-twitter-1.jpg" />
+				
+				<br><br>4) Enter the information about your website and click on "Create":
+				<br><img class="img-responsive" src="assets/img/tuto-twitter-2.jpg" />
+				<br><img class="img-responsive" src="assets/img/tuto-twitter-3.jpg" />
+
+				<br><br>5) Click on "Create" again:
+				<br><img class="img-responsive" src="assets/img/tuto-twitter-4.jpg" />
+
+				<br><br>5) Click in the "Keys and tokens" tab and in the button <strong>"Create"</strong>:
+				<br><img class="img-responsive" src="assets/img/tuto-twitter-5.jpg" />
+
+				<br><br>5) Open the file <code>php/twitter-feed.php</code> and change the values of keys with respective generated on the last step:<br>
+				<br><img class="img-responsive" src="assets/img/tuto-twitter-6.jpg" />
+				<br>
+
+			</section>
+			
+			<section id="instagram_feed">
+				<h2>Instagram Feed</h2>
+				
+				<p>
+					1) Access <code>http://www.instagram.com/developers</code>. Log in into your Instagram account and click on button "Register Your Application". <br><br><img style="max-width: 900px;" src="assets/img/tuto-insta-1.jpg" alt=""/>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					1.1) If you already have a Instagram Developer account skip this item. If not fill the form to create a Instagram Developer account. <br><br><img style="max-width: 900px;" src="assets/img/tuto-insta-1-1.jpg" alt=""/>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					2) Click on button "Register a New Client" <br><br><img style="max-width: 900px;" src="assets/img/tuto-insta-2.jpg" alt=""/>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					3) Fill the form with your data and click on button "Register". <br><br><img style="max-width: 900px;" src="assets/img/tuto-insta-3.jpg" alt=""/>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					4) Click on button "Manage"<br/><br><br><img style="max-width: 900px;" src="assets/img/tuto-insta-4.jpg" alt=""/>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					5) Click on tab "Security". Uncheck the "Disable implicit OAuth" and click on button "Update Client". <br><br><img style="max-width: 900px;" src="assets/img/tuto-insta-5.jpg" alt=""/>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					6) Open a browser new tab and access that URL: <code>https://www.instagram.com/oauth/authorize/?client_id=PUT_YOUR_CLIENT_ID_HERE&amp;redirect_uri=YOUR_REDIRECT_URL&amp;response_type=token</code>
+					<br><br>Change "PUT_YOUR_CLIENT_ID" by your <code>CLIENT_ID</code>. Change "YOUR_REDIRECT_URL" by your website URL. Click on button "Authorize". <br><br><img src="assets/img/tuto-insta-6.jpg" alt=""/>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					7) Instagram will redirect to a link with access token. <strong>Save that access token code generated.</strong><br><br><img style="max-width: 900px;" src="assets/img/tuto-insta-7.jpg" alt=""/>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					8) Add the Instafeed plugin and example JS code on page that you want. Like this code below: <br><br><img style="max-width: 900px;" src="assets/img/tuto-insta-8.jpg" alt=""/>
+				</p>
+				<p>
+					<br>
+				</p>
+				<p>
+					9) Add that code below where you want to show the Instagram photos:
+				</p>
+				<p>Porto has 3 types of Instagram Feed:</p>
+				<strong>Basic:</strong>
+				<pre>&lt;div id=&quot;instafeedBasic&quot;&gt;&lt;/div&gt;</pre>
+				<strong>Carousel:</strong>
+				<pre>&lt;div id=&quot;instafeedCarousel&quot;&gt;&lt;/div&gt;</pre>
+				<strong>No Margins:</strong>
+				<pre>&lt;div id=&quot;instafeedNoMargins&quot;&gt;&lt;/div&gt;</pre>
+
+			</section>
+			
+			<section id="google_maps">
+				<h2>Google Maps</h2>
+				
+				<p>Usage of the Google Maps APIs requires a key. If you are using the Google Maps API it will require a key going forward.</p>
+
+				<p>
+					<br>
+				</p>
+				
+				<p>1) Get an API key: <a target="_blank" href="https://developers.google.com/maps/documentation/javascript/get-api-key">https://developers.google.com/maps/documentation/javascript/get-api-key</a></p>
+
+				<p>
+					<br>
+				</p>
+				
+				<p>2) Add the API key in the HTML (Script)</p>
+
+				<p>
+					<br>
+				</p>
+				
+				<p><img src="http://www.okler.net/ss/20160623-9g1-30kb.jpg" /></p>
+
+				<p>
+					<br>
+				</p>
+				
+				<pre>&lt;script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"&gt;&lt;/script&gt;</pre>
+
+				<p>
+					<br>
+				</p>
+
+				<p>3) Configure the map location. For example, using as base the file <code>contact-us.html</code>:</p>
+				<p><strong>METHOD 1:</strong></p>
+				<p>Open the file using a text editor and go to the bottom of document. You will see the javascript code below:</p>
+
+				<p><img style="max-width: 900px;" src="assets/img/maps-1.jpg" alt=""/></p>
+
+				<p>Change the address in the <code>mapMarkers</code> array.</p><br><br>
+
+				<p><strong>METHOD 2:</strong></p>
+				<p>If you want to set the locations using Latitude and Longitude:</p>
+				<p>Replace the JS script in the HTML to this one:</p>
+
+				<p><img style="max-width: 900px;" src="assets/img/maps-2.jpg" alt=""/></p>
+
+				<p>Here’s a good website to find the coordinates of your address: <a href="https://www.latlong.net/" target="_blank">https://www.latlong.net/</a></p>
+
+				<p>
+					<br>
+				</p>
+
+			</section>
+
+			<section id="contactform">
+				<h2>Contact Form</h2>
+				<p>1) HTML:</p>
+<pre>
+&#x3C;form id=&#x22;contactForm&#x22; class=&#x22;contact-form appear-animation&#x22; action=&#x22;php/contact-form.php&#x22; method=&#x22;POST&#x22; data-appear-animation=&#x22;fadeIn&#x22; data-appear-animation-delay=&#x22;600&#x22;&#x3E;
+&#x9;&#x3C;div class=&#x22;contact-form-success alert alert-success d-none mt-4&#x22; id=&#x22;contactSuccess&#x22;&#x3E;
+&#x9;&#x9;&#x3C;strong&#x3E;Success!&#x3C;/strong&#x3E; Your message has been sent to us.
+&#x9;&#x3C;/div&#x3E;
+
+&#x9;&#x3C;div class=&#x22;contact-form-error alert alert-danger d-none mt-4&#x22; id=&#x22;contactError&#x22;&#x3E;
+&#x9;&#x9;&#x3C;strong&#x3E;Error!&#x3C;/strong&#x3E; There was an error sending your message.
+&#x9;&#x9;&#x3C;span class=&#x22;mail-error-message text-1 d-block&#x22; id=&#x22;mailErrorMessage&#x22;&#x3E;&#x3C;/span&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col-lg-6&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;required font-weight-bold text-dark&#x22;&#x3E;Full Name&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;text&#x22; value=&#x22;&#x22; data-msg-required=&#x22;Please enter your name.&#x22; maxlength=&#x22;100&#x22; class=&#x22;form-control&#x22; name=&#x22;name&#x22; id=&#x22;name&#x22; required&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col-lg-6&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;required font-weight-bold text-dark&#x22;&#x3E;Email Address&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;email&#x22; value=&#x22;&#x22; data-msg-required=&#x22;Please enter your email address.&#x22; data-msg-email=&#x22;Please enter a valid email address.&#x22; maxlength=&#x22;100&#x22; class=&#x22;form-control&#x22; name=&#x22;email&#x22; id=&#x22;email&#x22; required&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;font-weight-bold text-dark&#x22;&#x3E;Subject&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;text&#x22; value=&#x22;&#x22; data-msg-required=&#x22;Please enter the subject.&#x22; maxlength=&#x22;100&#x22; class=&#x22;form-control&#x22; name=&#x22;subject&#x22; id=&#x22;subject&#x22; required&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;required font-weight-bold text-dark&#x22;&#x3E;Message&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;textarea maxlength=&#x22;5000&#x22; data-msg-required=&#x22;Please enter your message.&#x22; rows=&#x22;8&#x22; class=&#x22;form-control&#x22; name=&#x22;message&#x22; id=&#x22;message&#x22; required&#x3E;&#x3C;/textarea&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;submit&#x22; value=&#x22;Send Message&#x22; class=&#x22;btn btn-primary btn-modern&#x22; data-loading-text=&#x22;Loading...&#x22;&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x3C;/form&#x3E;
+</pre>
+
+				<p><br></p>
+
+				<p>2) Make sure that you have the jQuery Validate plugin included on document:</p>
+				<p><img style="max-width: 900px;" src="assets/img/contact-form-1.jpg" alt=""/></p><br><br>
+
+				<p>3) Add the script "view.contact.js" on footer of document. Like the image below:</p>
+				<p><img style="max-width: 900px;" src="assets/img/contact-form-2.jpg" alt=""/></p><br><br>
+
+				<p>4) In <code>php/contact-form.php</code> change the value of variable <code>$email</code> to your email (the email that will receive contacts)</p>
+				<p><img style="max-width: 900px;" src="assets/img/contact-form-3.jpg" alt=""/></p><br><br>
+
+				<p>4.1) <strong>OPTIONAL:</strong> You can easily change the label text of each field. For example, to change "Email" for "Email Address" just uncomment the code like on image below:</p>
+				<p><img style="max-width: 900px;" src="assets/img/contact-form-4.jpg" alt=""/></p><br><br>
+
+				<p><strong>Contact form is not working ?</strong></p>
+				<p>Try the solution on this link: <a href="http://www.okler.net/forums/topic/important-contact-form-is-not-working/" target="_blank">http://www.okler.net/forums/topic/important-contact-form-is-not-working/</a></p><br>
+
+				<p><strong>Contact Form receiving blank emails / {"response":"success"}</strong></p>
+				<p>Make sure that you made the step 3 of tutorial above.</p><br><br>
+
+			</section>
+
+			<section id="contactformty">
+				<h2>Contact Form - Thank you page</h2>
+				<p>To redirect for a "Thank You" page when contact form is sent, just uncomment the code below at <code>js/views/view.contact.js</code>:</p>
+				<p><img style="max-width: 900px;" src="assets/img/contact-form-5.jpg" alt=""/></p><br><br>
+			</section>
+
+			<section id="googlerecaptcha">
+				<h2>Google Recaptcha v2</h2>
+				<p>1) For adding reCAPTCHA v2 to your site, you need to register your site and get reCAPTCHA v2 API keys.<br> Register your site at Google from here – <a href="https://www.google.com/recaptcha/admin" target="_blank">https://www.google.com/recaptcha/admin</a></p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-1.jpg" alt=""/></p><br><br>
+
+				<p>2) Get your Site Key.<br>Site key is used to display the reCAPTCHA widget.</p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-2.jpg" alt=""/></p><br><br>
+
+				<p>3) Get your Secret Key.<br>Secret key helps authorizes communication between your site and the reCAPTCHA server.</p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-3.jpg" alt=""/></p><br><br>
+
+				<p>4) HTML:<br>Change "YOUR_RECAPTCHA_SITE_KEY" by your generated Google Recaptcha site key.</p>
+<pre>
+&#x3C;form id=&#x22;contactForm&#x22; class=&#x22;contact-form&#x22; action=&#x22;php/contact-form-recaptcha-v2.php&#x22; method=&#x22;POST&#x22;&#x3E;
+&#x9;&#x3C;div class=&#x22;contact-form-success alert alert-success d-none mt-4&#x22; id=&#x22;contactSuccess&#x22;&#x3E;
+&#x9;&#x9;&#x3C;strong&#x3E;Success!&#x3C;/strong&#x3E; Your message has been sent to us.
+&#x9;&#x3C;/div&#x3E;
+
+&#x9;&#x3C;div class=&#x22;contact-form-error alert alert-danger d-none mt-4&#x22; id=&#x22;contactError&#x22;&#x3E;
+&#x9;&#x9;&#x3C;strong&#x3E;Error!&#x3C;/strong&#x3E; There was an error sending your message.
+&#x9;&#x9;&#x3C;span class=&#x22;mail-error-message text-1 d-block&#x22; id=&#x22;mailErrorMessage&#x22;&#x3E;&#x3C;/span&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col-lg-6&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;required font-weight-bold text-dark&#x22;&#x3E;Full Name&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;text&#x22; value=&#x22;&#x22; data-msg-required=&#x22;Please enter your name.&#x22; maxlength=&#x22;100&#x22; class=&#x22;form-control&#x22; name=&#x22;name&#x22; id=&#x22;name&#x22; required&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col-lg-6&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;required font-weight-bold text-dark&#x22;&#x3E;Email Address&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;email&#x22; value=&#x22;&#x22; data-msg-required=&#x22;Please enter your email address.&#x22; data-msg-email=&#x22;Please enter a valid email address.&#x22; maxlength=&#x22;100&#x22; class=&#x22;form-control&#x22; name=&#x22;email&#x22; id=&#x22;email&#x22; required&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;font-weight-bold text-dark&#x22;&#x3E;Subject&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;text&#x22; value=&#x22;&#x22; data-msg-required=&#x22;Please enter the subject.&#x22; maxlength=&#x22;100&#x22; class=&#x22;form-control&#x22; name=&#x22;subject&#x22; id=&#x22;subject&#x22; required&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;required font-weight-bold text-dark&#x22;&#x3E;Message&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;textarea maxlength=&#x22;5000&#x22; data-msg-required=&#x22;Please enter your message.&#x22; rows=&#x22;5&#x22; class=&#x22;form-control&#x22; name=&#x22;message&#x22; id=&#x22;message&#x22; required&#x3E;&#x3C;/textarea&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;div class=&#x22;g-recaptcha&#x22; data-sitekey=&#x22;YOUR_RECAPTCHA_SITE_KEY&#x22;&#x3E;&#x3C;/div&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;submit&#x22; value=&#x22;Send Message&#x22; class=&#x22;btn btn-primary btn-modern&#x22; data-loading-text=&#x22;Loading...&#x22;&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x3C;/form&#x3E;
+</pre>
+
+				<p><br></p>
+
+				<p>5) Make sure that you have the jQuery Validate plugin included on document:</p>
+				<p><img style="max-width: 900px;" src="assets/img/contact-form-1.jpg" alt=""/></p><br><br>
+
+				<p>6) Add the script "view.contact.js" on footer of document. Like the image below:</p>
+				<p><img style="max-width: 900px;" src="assets/img/contact-form-2.jpg" alt=""/></p><br><br>
+
+				<p>7) Add the script of Google Recaptcha on footer of document. Like the image below:</p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-5.jpg" alt=""/></p><br><br>
+
+				<p>8) In <code>php/contact-form-recaptcha-v2.php</code> change the value of variable <code>$secret</code> to your generated Google Recaptcha Secret Key</p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-6.jpg" alt=""/></p><br><br>
+
+				<p>9) In <code>php/contact-form-recaptcha-v2.php</code> change the value of variable <code>$email</code> to your email (the email that will receive contacts)</p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-7.jpg" alt=""/></p><br><br>
+
+			</section>
+
+			<section id="googlerecaptchav3">
+				<h2>Google Recaptcha v3</h2>
+				<p>1) For adding reCAPTCHA v3 to your site, you need to register your site and get reCAPTCHA v3 API keys.<br> Register your site at Google from here – <a href="https://www.google.com/recaptcha/admin" target="_blank">https://www.google.com/recaptcha/admin</a></p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-v3-1.jpg" alt=""/></p><br><br>
+
+				<p>2) Get your Site Key.<br>Site key is used to display the reCAPTCHA widget.</p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-2.jpg" alt=""/></p><br><br>
+
+				<p>3) Get your Secret Key.<br>Secret key helps authorizes communication between your site and the reCAPTCHA server.</p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-3.jpg" alt=""/></p><br><br>
+
+				<p>4) HTML:</p>
+<pre>
+&#x3C;form id=&#x22;contactForm&#x22; class=&#x22;contact-form-recaptcha-v3&#x22; action=&#x22;php/contact-form-recaptcha-v3.php&#x22; method=&#x22;POST&#x22;&#x3E;
+&#x9;&#x3C;div class=&#x22;contact-form-success alert alert-success d-none mt-4&#x22; id=&#x22;contactSuccess&#x22;&#x3E;
+&#x9;&#x9;&#x3C;strong&#x3E;Success!&#x3C;/strong&#x3E; Your message has been sent to us.
+&#x9;&#x3C;/div&#x3E;
+
+&#x9;&#x3C;div class=&#x22;contact-form-error alert alert-danger d-none mt-4&#x22; id=&#x22;contactError&#x22;&#x3E;
+&#x9;&#x9;&#x3C;strong&#x3E;Error!&#x3C;/strong&#x3E; There was an error sending your message.
+&#x9;&#x9;&#x3C;span class=&#x22;mail-error-message text-1 d-block&#x22; id=&#x22;mailErrorMessage&#x22;&#x3E;&#x3C;/span&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col-lg-6&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;required font-weight-bold text-dark&#x22;&#x3E;Full Name&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;text&#x22; value=&#x22;&#x22; data-msg-required=&#x22;Please enter your name.&#x22; maxlength=&#x22;100&#x22; class=&#x22;form-control&#x22; name=&#x22;name&#x22; id=&#x22;name&#x22; required&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col-lg-6&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;required font-weight-bold text-dark&#x22;&#x3E;Email Address&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;email&#x22; value=&#x22;&#x22; data-msg-required=&#x22;Please enter your email address.&#x22; data-msg-email=&#x22;Please enter a valid email address.&#x22; maxlength=&#x22;100&#x22; class=&#x22;form-control&#x22; name=&#x22;email&#x22; id=&#x22;email&#x22; required&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;font-weight-bold text-dark&#x22;&#x3E;Subject&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;text&#x22; value=&#x22;&#x22; data-msg-required=&#x22;Please enter the subject.&#x22; maxlength=&#x22;100&#x22; class=&#x22;form-control&#x22; name=&#x22;subject&#x22; id=&#x22;subject&#x22; required&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;label class=&#x22;required font-weight-bold text-dark&#x22;&#x3E;Message&#x3C;/label&#x3E;
+&#x9;&#x9;&#x9;&#x3C;textarea maxlength=&#x22;5000&#x22; data-msg-required=&#x22;Please enter your message.&#x22; rows=&#x22;5&#x22; class=&#x22;form-control&#x22; name=&#x22;message&#x22; id=&#x22;message&#x22; required&#x3E;&#x3C;/textarea&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+&#x9;&#x9;&#x3C;div class=&#x22;form-group col&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;input type=&#x22;submit&#x22; value=&#x22;Send Message&#x22; class=&#x22;btn btn-primary btn-modern&#x22; data-loading-text=&#x22;Loading...&#x22;&#x3E;
+&#x9;&#x9;&#x3C;/div&#x3E;
+&#x9;&#x3C;/div&#x3E;
+&#x3C;/form&#x3E;
+</pre>
+
+				<p><br></p>
+
+				<p>5) Make sure that you have the jQuery Validate plugin included on document:</p>
+				<p><img style="max-width: 900px;" src="assets/img/contact-form-1.jpg" alt=""/></p><br><br>
+
+				<p>6) Add the script "view.contact.js" on footer of document. Like the image below:</p>
+				<p><img style="max-width: 900px;" src="assets/img/contact-form-2.jpg" alt=""/></p><br><br>
+
+				<p>7) Add the script of Google Recaptcha v3 on footer of document and replace "YOUR RECAPTCHA_SITE_KEY" with your recaptcha site key. Like the image below:</p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-v3-5.jpg" alt=""/></p><br><br>
+
+				<p>8) In <code>php/contact-form-recaptcha-v3.php</code> change the value of variable <code>$secret</code> to your generated Google Recaptcha Secret Key</p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-6.jpg" alt=""/></p><br><br>
+
+				<p>9) In <code>php/contact-form-recaptcha-v3.php</code> change the value of variable <code>$email</code> to your email (the email that will receive contacts)</p>
+				<p><img style="max-width: 900px;" src="assets/img/recaptcha-7.jpg" alt=""/></p><br><br>
+
+			</section>
+
+			<section id="revslideraddons">
+				<h2>Revolution Slider - Add-Ons</h2>
+				<p>Porto comes with Revolution Slider Add-Ons that gives the possibility to create new incredible effects. Here is the official documentation of Revolution Slider explaining how to use:<br> <a href="https://www.themepunch.com/revsliderjquery-doc/whiteboard/">https://www.themepunch.com/revsliderjquery-doc/whiteboard/</a></p>
+				<p>The Revolution Slider Add-Ons scripts are located at: <code>vendor/rs-plugin/revolution-addons</code></p>
+				<p>Note that each Add-On needs to be implemented in a different way.</p>
+				<br>
+			</section>
+
+			<section id="facebookComments">
+				<h2>Facebook Comments</h2>
+				<p><strong>To see the facebook comments working first make sure to run the project with a local or online server like APACHE</strong></p>
+				<p>You can find a working example of facebook comments on the page: <code>blog-post-comments-facebook.html</code>. Note that comes by default showing the facebook page comments.</p>
+				<p>To set for your page comments just change the <code>data-href="https://developers.facebook.com/docs/plugins/comments"</code> value to your page link, for example:</p>
+				<pre>data-href="https://www.mydomain.com/example-page/index.html"</pre>
+				<p>You can increase or decrease the number of comments to show changing the attribute <code>data-numposts="7"</code></p>
+				<p>By default the language defined is English (en_US). To change the language just modify the language code on the facebook script at top of page (after the <code>&lt;body&gt;</code> tag).<br> 
+				For example to change for Spanish language:</p>
+				<p><img style="max-width: 900px;" src="assets/img/facebook-comment-1.jpg" alt=""/></p>
+				<p>If you want the facebook comments in another page just make sure to copy the javascript code on image above and paste after the <code>&lt;body&gt;</code> tag. Then add the HTML code below where you want on the page:</p>
+				<pre>
+&#x3C;h4 class=&#x22;mb-3&#x22;&#x3E;Comments (&#x3C;fb:comments-count href=&#x22;https://developers.facebook.com/docs/plugins/comments&#x22;&#x3E;&#x3C;/fb:comments-count&#x3E;)&#x3C;/h4&#x3E;
+&#x3C;div class=&#x22;fb-comments w-100&#x22; data-href=&#x22;https://developers.facebook.com/docs/plugins/comments&#x22; data-numposts=&#x22;7&#x22; data-width=&#x22;100%&#x22;&#x3E;&#x3C;/div&#x3E;
+				</pre>
+				<br>
+			</section>
+
+			<section id="disqusComments">
+				<h2>Disqus Comments</h2>
+				<p>1) First create a new account and forum in <a href="https://disqus.com/" target="_blank">https://disqus.com/</a></p>
+				<p>2) Add the disqus scripts on footer of page before the <code>&lt;/body&gt;</code> tag:</p>
+				<pre>
+&#x9;&#x9;.
+&#x9;&#x9;..
+&#x9;&#x9;...
+&#x9;&#x9;....
+&#x9;&#x9;&#x3C;!-- Disqus Scripts --&#x3E;
+&#x9;&#x9;&#x3C;script&#x3E;
+&#x9;&#x9;&#x9;var disqus_subdomain = &#x27;YOUR_DISQUS_FORUM_SHORTNAME&#x27;;
+
+&#x9;&#x9;&#x9;(function() { // DON&#x27;T EDIT BELOW THIS LINE
+&#x9;&#x9;&#x9;var d = document, s = d.createElement(&#x27;script&#x27;);
+&#x9;&#x9;&#x9;s.src = &#x27;https://&#x27;+ disqus_subdomain +&#x27;.disqus.com/embed.js&#x27;;
+&#x9;&#x9;&#x9;s.setAttribute(&#x27;data-timestamp&#x27;, +new Date());
+&#x9;&#x9;&#x9;(d.head || d.body).appendChild(s);
+&#x9;&#x9;&#x9;})();
+&#x9;&#x9;&#x3C;/script&#x3E;
+&#x9;&#x9;&#x3C;script id=&#x22;dsq-count-scr&#x22; src=&#x22;//YOUR_DISQUS_FORUM_SHORTNAME.disqus.com/count.js&#x22; async&#x3E;&#x3C;/script&#x3E;
+
+&#x9;&#x3C;/body&#x3E;
+&#x3C;/html&#x3E;
+				</pre>
+				<p>* Change <code>YOUR_DISQUS_FORUM_SHORTNAME</code> to your disqus short name. For example: <code>okler</code> (from <code>okler</code>.disqus.com)</p>
+				<p>3) Add the HTML code to show the disqus comments where you want:</p>
+				<pre>&#x3C;div id=&#x22;disqus_thread&#x22;&#x3E;&#x3C;/div&#x3E;</pre>
+				<br>
+			</section>
+
+			<section id="effects">
+				<h2>Effects</h2>
+				<p>You can add some Animations / Transitions to the elements which fires when an element scrolls into view, it's pretty simple to use and you can add it in any element.<br>
+					&nbsp;</p>
+				<p><strong>Usage:</strong></p>
+
+<pre>
+&lt;div class=&quot;appear-animation&quot; data-appear-animation=&quot;bounceIn&quot; data-appear-animation-delay=&quot;200&quot;&gt;
+...
+&lt;/div&gt;
+</pre>
+
+				<br><p>Heads up: The Attribute <strong>data-appear-animation-delay</strong> is <strong>Optional </strong>and is set in <strong>Miliseconds</strong>.</p>
+				<p>The animation can be set to all possible options of Animate.css:</p>
+				<a href="https://daneden.github.io/animate.css/">https://daneden.github.io/animate.css/</a>
+				
+			</section>
+
+			<section id="admin_extension">
+				<h2>Admin Extension</h2>
+				<a target="_blank" href="http://www.okler.net/forums/topic/how-to-integrate-porto-admin-extension-on-porto/">View Topic: How to integrate Porto Admin Extension on Porto</a>
+			</section>
+
+			<section id="changelog">
+				<h2>Changelog</h2>
+				<a target="_blank" href="http://www.okler.net/forums/topic/porto-changelog/">View Changelog</a>
+			</section>
+		</div>
+
+		<!-- Vendor -->
+		<script src="assets/vendor/jquery/jquery.js"></script>
+		<script src="assets/vendor/bootstrap/bootstrap.js"></script>
+		<script src="assets/js/docs.js"></script>
+
+	</body>
+</html>
