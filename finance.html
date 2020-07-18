@@ -6,11 +6,11 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Demo Finance | Porto - Responsive HTML5 Template</title>	
+		<title>inState</title>	
 
 		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta name="description" content="inState- Main">
+		<meta name="author" content="">
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -51,6 +51,9 @@
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="css/custom.css">
 
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="css/skins/skin-corporate-16.css"> 
+
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
 
@@ -58,7 +61,7 @@
 	<body>
 
 		<div class="body">
-			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+			<!-- <header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
 				<div class="header-body border-0">
 					<div class="header-container container">
 						<div class="header-row">
@@ -66,7 +69,7 @@
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="demo-finance.html">
-											<img alt="Porto Finance" width="100" height="45" src="img/demos/finance/logo.png">
+											<img alt="Porto Finance" width="100" height="45" src="img/logo.png">
 										</a>
 									</div>
 								</div>
@@ -118,13 +121,7 @@
 										<ul class="header-extra-info">
 											<li class="m-0">
 												<div class="feature-box feature-box-style-2 align-items-center">
-													<div class="feature-box-icon">
-														<i class="fas fa-mobile-alt text-9 p-relative text-color-dark"></i>
-													</div>
-													<div class="feature-box-info pl-0">
-														<p class="pb-0 text-uppercase text-color-dark line-height-1 text-2">Toll Free</p>
-														<p class="pb-0 text-uppercase text-color-dark font-weight-black letter-spacing-minus-1 line-height-1 text-5">800 123 4567</p>
-													</div>
+													
 												</div>
 											</li>
 										</ul>
@@ -134,7 +131,82 @@
 						</div>
 					</div>
 				</div>
+			</header> -->
+
+			<!-- Start of navbar -->
+			<header id="header" class="header-transparent header-semi-transparent header-semi-transparent-dark header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+				<div class="header-body border-top-0 bg-dark box-shadow-none">
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-logo">
+										<a href="index.html">
+											<img alt="Porto" width="82" height="40" src="img/logo-white.png">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="header-column justify-content-end">
+								<div class="header-row">
+									<div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
+										<div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-font-md header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+											<nav class="collapse">
+												<ul class="nav nav-pills" id="mainNav">
+													<li>
+														<a class="nav-link active" href="demo-finance.html">
+															Home
+														</a>
+													</li>
+													<li>
+														<a class="nav-link active" href="demo-finance.html">
+															Our mission
+														</a>
+													</li>
+													<li>
+														<a class="nav-link active" href="demo-finance.html">
+															Who we are
+														</a>
+													</li>
+													<li>
+														<a class="nav-link active" href="demo-finance.html">
+															Pathways
+														</a>
+													</li>
+													<li>
+														<!-- TODO: add button -->
+													</li>
+												</ul>
+											</nav>
+										</div>
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+											<i class="fas fa-bars"></i>
+										</button>
+									</div>
+									<div class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
+										<div class="header-nav-feature header-nav-features-search d-inline-flex">
+											<a href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon"></i></a>
+											<div class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed" id="headerTopSearchDropdown">
+												<form role="search" action="page-search-results.html" method="get">
+													<div class="simple-search input-group">
+														<input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">
+														<span class="input-group-append">
+															<button class="btn" type="submit">
+																<i class="fa fa-search header-nav-top-icon text-color-dark"></i>
+															</button>
+														</span>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</header>
+			<!-- End of Navbar -->
 			
 			<div role="main" class="main">
 				
@@ -142,7 +214,7 @@
 				<div id="revolutionSlider" class="slider rev_slider manual" data-version="5.4.8">
 					<ul>
 						<li data-transition="fade">
-							<img src="img/demos/finance/slider/slide-finance-1.jpg"  
+							<img src="img/home-slide-2.jpg"  
 								alt=""
 								data-bgposition="center center" 
 								data-bgfit="cover" 
@@ -154,7 +226,7 @@
 								data-y="center" data-voffset="-40"
 								data-start="800" 
 								data-fontsize="40"
-								style="letter-spacing: -2px;" 
+								style="letter-spacing: -2px; color:white" 
 								data-transform_in="y:[-300%];opacity:0;s:500;">Investment Strategies</h1>
 
 							<div class="tp-caption text-uppercase"
@@ -162,6 +234,7 @@
 								data-y="center" data-voffset="0"
 								data-start="1200"
 								data-fontsize="22"
+								style="color:white" 
 								data-transform_in="y:[-300%];opacity:0;s:500;">We can help you</div>
 
 							<a class="tp-caption btn btn-primary custom-btn-style-1 text-uppercase font-weight-semibold"
@@ -173,7 +246,7 @@
 								data-transform_in="y:[-300%];opacity:0;s:500;">Learn More</a>
 						</li>
 						<li data-transition="fade">
-							<img src="img/demos/finance/slider/slide-finance-2.jpg"  
+							<img src="img/home-slide-3.jpg"  
 								alt=""
 								data-bgposition="center center" 
 								data-bgfit="cover" 
@@ -212,12 +285,13 @@
 					<div class="row align-items-center">
 						<div class="col-lg-8 mb-3 mb-lg-0">
 							<p class="text-color-light my-1">
-								The fastest way to grow your business with the leader in investments.
-								<span class="text-color-primary d-inline-block pt-0">Learn more about our strategy</span>
+								Register your interest to become a member of inState
+								<span class="text-color-primary d-inline-block pt-0">Enter your email address to be notified</span>
 							</p>
 						</div>
 						<div class="col-lg-4 text-left text-lg-right">
-							<a href="demo-finance-strategies.html" class="btn btn-primary custom-btn-style-1 text-uppercase font-weight-semibold">read more</a>
+							<!-- TODO: replace with email section -->
+							<a href="http://eepurl.com/g-FU4r" target="_blank" class="btn btn-primary custom-btn-style-1 text-uppercase font-weight-semibold">Sign up  here</a>
 						</div>
 					</div>
 				</div>
@@ -307,233 +381,255 @@
 			</section>
 
 			<section class="section section-no-border custom-section-spacement-1 bg-color-light m-0">
-				<div class="container">
-					<div class="row text-center">
-						<div class="col">
-							<h2 class="text-uppercase text-color-dark font-weight-bold">Invested your money with real Professionals</h2>
-							<p class="text-4 text-color-dark mb-5">Meet our Team of Specialists</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6 col-lg-3">
-							<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
-								<span class="thumb-info custom-thumb-info-1 thumb-info-no-borders">
-									<span class="thumb-info-wrapper p-0">
-										<img src="img/demos/finance/team/team-1.jpg" class="img-fluid" alt="">
-									</span>
-									<span class="thumb-info-caption bg-color-light">
-										<span class="thumb-info-caption-text">
-											<span class="thumb-info-caption-title text-uppercase text-color-dark font-weight-bold">John Doe</span>
-											<p class="mb-0">CEO</p>
-											<span class="custom-thumb-info-caption-plus bg-color-primary text-color-light">+</span>
-										</span>
-									</span>
-								</span>
-							</a>
-							<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
-								<div class="row">
-									<div class="col-lg-4 col-sm-4">
-										<img src="img/demos/finance/team/team-1.jpg" class="img-fluid mb-4" alt="">
-										<ul class="social-icons custom-social-icons text-center">
-											<li class="social-icons-facebook">
-												<a href="http://www.facebook.com/" target="_blank" title="Facebook">
-													<i class="fab fa-facebook-f"></i>
-												</a>
-											</li>
-											<li class="social-icons-twitter">
-												<a href="http://www.twitter.com/" target="_blank" title="Twitter">
-													<i class="fab fa-twitter"></i>
-												</a>
-											</li>
-											<li class="social-icons-googleplus">
-												<a href="http://www.plus.google.com/" target="_blank" title="Twitter">
-													<i class="fab fa-google-plus-g" aria-hidden="true"></i>
-												</a>
-											</li>
-											<li class="social-icons-linkedin">
-												<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-													<i class="fab fa-linkedin-in"></i>
-												</a>
-											</li>
-										</ul>
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<p class="text-uppercase mb-0">Meet the team</p>
+								<h3 class="font-weight-bold mb-2 text-capitalize">Heads</h3>
+								<p class="mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper.</p>
+								<div class="owl-carousel owl-theme custom-owl-carousel stage-margin nav-style-1" data-plugin-options="{'items': 6, 'margin': 10, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
+									<div class="text-center">
+										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Asher Mohammed</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">President</span>
+										</a>
+										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<ul class="social-icons custom-social-icons text-center">
+														<li class="social-icons-linkedin">
+															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+																<i class="fab fa-linkedin-in"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Asher Mohammed</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Founder of Porto</p>
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
+													<p class="text-2 custom-line-height-1">text edited</p>		
+												</div>
+											</div>
+										</div>
 									</div>
-									<div class="col-lg-8 col-sm-8">
-										<h2 class="font-weight-semibold text-color-dark mb-1">John Doe</h2>
-										<p class="custom-font-style-1 font-weight-semibold">Founder of Porto</p>
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque at purus et auctor. Donec eget risus vitae lacus aliquam porttitor. Morbi pellentesque fermentum ex, nec sagittis augue mollis sit amet. Pellentesque vitae metus porttitor ipsum finibus tincidunt. Praesent sit amet fringilla nisi, in porttitor eros. Vivamus iaculis mattis purus, vitae dictum felis tempor nec. Maecenas eget fermentum turpis. Fusce dignissim leo sit amet aliquet facilisis. Sed erat arcu, ultricies a justo vitae, elementum egestas justo. Nunc bibendum, ex id dapibus fringilla, nisl quam tincidunt ligula, at luctus quam magna nec sem. Suspendisse vitae tempus velit, nec congue sapien.</p>		
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-lg-3">
-							<a href="#team-content-2" class="popup-with-zoom-anim text-decoration-none">
-								<span class="thumb-info custom-thumb-info-1 thumb-info-no-borders">
-									<span class="thumb-info-wrapper p-0">
-										<img src="img/demos/finance/team/team-2.jpg" class="img-fluid" alt="">
-									</span>
-									<span class="thumb-info-caption bg-color-light">
-										<span class="thumb-info-caption-text">
-											<span class="thumb-info-caption-title text-uppercase text-color-dark font-weight-bold">Tom Doe</span>
-											<p class="mb-0">Director of Investments</p>
-											<span class="custom-thumb-info-caption-plus bg-color-primary text-color-light">+</span>
-										</span>
-									</span>
-								</span>
-							</a>
-							<div id="team-content-2" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
-								<div class="row">
-									<div class="col-lg-4 col-sm-4">
-										<img src="img/demos/finance/team/team-2.jpg" class="img-fluid mb-4" alt="">
-										<ul class="social-icons custom-social-icons text-center">
-											<li class="social-icons-facebook">
-												<a href="http://www.facebook.com/" target="_blank" title="Facebook">
-													<i class="fab fa-facebook-f"></i>
-												</a>
-											</li>
-											<li class="social-icons-twitter">
-												<a href="http://www.twitter.com/" target="_blank" title="Twitter">
-													<i class="fab fa-twitter"></i>
-												</a>
-											</li>
-											<li class="social-icons-googleplus">
-												<a href="http://www.plus.google.com/" target="_blank" title="Twitter">
-													<i class="fab fa-google-plus-g" aria-hidden="true"></i>
-												</a>
-											</li>
-											<li class="social-icons-linkedin">
-												<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-													<i class="fab fa-linkedin-in"></i>
-												</a>
-											</li>
-										</ul>
-									</div>
-									<div class="col-lg-8 col-sm-8">
-										<h2 class="font-weight-semibold text-color-dark mb-1">John Doe</h2>
-										<p class="custom-font-style-1 font-weight-semibold">Founder of Porto</p>
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque at purus et auctor. Donec eget risus vitae lacus aliquam porttitor. Morbi pellentesque fermentum ex, nec sagittis augue mollis sit amet. Pellentesque vitae metus porttitor ipsum finibus tincidunt. Praesent sit amet fringilla nisi, in porttitor eros. Vivamus iaculis mattis purus, vitae dictum felis tempor nec. Maecenas eget fermentum turpis. Fusce dignissim leo sit amet aliquet facilisis. Sed erat arcu, ultricies a justo vitae, elementum egestas justo. Nunc bibendum, ex id dapibus fringilla, nisl quam tincidunt ligula, at luctus quam magna nec sem. Suspendisse vitae tempus velit, nec congue sapien.</p>		
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-lg-3">
-							<a href="#team-content-3" class="popup-with-zoom-anim text-decoration-none">
-								<span class="thumb-info custom-thumb-info-1 thumb-info-no-borders custom-rm-mb">
-									<span class="thumb-info-wrapper p-0">
-										<img src="img/demos/finance/team/team-3.jpg" class="img-fluid" alt="">
-									</span>
-									<span class="thumb-info-caption bg-color-light">
-										<span class="thumb-info-caption-text">
-											<span class="thumb-info-caption-title text-uppercase text-color-dark font-weight-bold">Josh Doe</span>
-											<p class="mb-0">Chief officer</p>
-											<span class="custom-thumb-info-caption-plus bg-color-primary text-color-light">+</span>
-										</span>
-									</span>
-								</span>
-							</a>
-							<div id="team-content-3" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
-								<div class="row">
-									<div class="col-lg-4 col-sm-4">
-										<img src="img/demos/finance/team/team-3.jpg" class="img-fluid mb-4" alt="">
-										<ul class="social-icons custom-social-icons text-center">
-											<li class="social-icons-facebook">
-												<a href="http://www.facebook.com/" target="_blank" title="Facebook">
-													<i class="fab fa-facebook-f"></i>
-												</a>
-											</li>
-											<li class="social-icons-twitter">
-												<a href="http://www.twitter.com/" target="_blank" title="Twitter">
-													<i class="fab fa-twitter"></i>
-												</a>
-											</li>
-											<li class="social-icons-googleplus">
-												<a href="http://www.plus.google.com/" target="_blank" title="Twitter">
-													<i class="fab fa-google-plus-g" aria-hidden="true"></i>
-												</a>
-											</li>
-											<li class="social-icons-linkedin">
-												<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-													<i class="fab fa-linkedin-in"></i>
-												</a>
-											</li>
-										</ul>
-									</div>
-									<div class="col-lg-8 col-sm-8">
-										<h2 class="font-weight-semibold text-color-dark mb-1">John Doe</h2>
-										<p class="custom-font-style-1 font-weight-semibold">Founder of Porto</p>
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque at purus et auctor. Donec eget risus vitae lacus aliquam porttitor. Morbi pellentesque fermentum ex, nec sagittis augue mollis sit amet. Pellentesque vitae metus porttitor ipsum finibus tincidunt. Praesent sit amet fringilla nisi, in porttitor eros. Vivamus iaculis mattis purus, vitae dictum felis tempor nec. Maecenas eget fermentum turpis. Fusce dignissim leo sit amet aliquet facilisis. Sed erat arcu, ultricies a justo vitae, elementum egestas justo. Nunc bibendum, ex id dapibus fringilla, nisl quam tincidunt ligula, at luctus quam magna nec sem. Suspendisse vitae tempus velit, nec congue sapien.</p>		
-									</div>
-								</div>
-							</div>
-						</div>
 
-						<div class="col-sm-6 col-lg-3">
-							<a href="#team-content-4" class="popup-with-zoom-anim text-decoration-none">
-								<span class="thumb-info custom-thumb-info-1 thumb-info-no-borders custom-rm-mb-last">
-									<span class="thumb-info-wrapper p-0">
-										<img src="img/demos/finance/team/team-4.jpg" class="img-fluid" alt="">
-									</span>
-									<span class="thumb-info-caption bg-color-light">
-										<span class="thumb-info-caption-text">
-											<span class="thumb-info-caption-title text-uppercase text-color-dark font-weight-bold">Alan Doe</span>
-											<p class="mb-0">Risk Analyst</p>
-											<span class="custom-thumb-info-caption-plus bg-color-primary text-color-light">+</span>
-										</span>
-									</span>
-								</span>
-							</a>
-							<div id="team-content-4" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
-								<div class="row">
-									<div class="col-lg-4 col-sm-4">
-										<img src="img/demos/finance/team/team-4.jpg" class="img-fluid mb-4" alt="">
-										<ul class="social-icons custom-social-icons text-center">
-											<li class="social-icons-facebook">
-												<a href="http://www.facebook.com/" target="_blank" title="Facebook">
-													<i class="fab fa-facebook-f"></i>
-												</a>
-											</li>
-											<li class="social-icons-twitter">
-												<a href="http://www.twitter.com/" target="_blank" title="Twitter">
-													<i class="fab fa-twitter"></i>
-												</a>
-											</li>
-											<li class="social-icons-googleplus">
-												<a href="http://www.plus.google.com/" target="_blank" title="Twitter">
-													<i class="fab fa-google-plus-g" aria-hidden="true"></i>
-												</a>
-											</li>
-											<li class="social-icons-linkedin">
-												<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-													<i class="fab fa-linkedin-in"></i>
-												</a>
-											</li>
-										</ul>
+									<div class="text-center">
+										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Verinda Kaur Sohal</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Vice-President</span>
+										</a>
+										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<ul class="social-icons custom-social-icons text-center">
+														<li class="social-icons-linkedin">
+															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+																<i class="fab fa-linkedin-in"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Verinda Kaur Sohal</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
+													<p class="text-2 custom-line-height-1">text edited</p>		
+												</div>
+											</div>
+										</div>
 									</div>
-									<div class="col-lg-8 col-sm-8">
-										<h2 class="font-weight-semibold text-color-dark mb-1">John Doe</h2>
-										<p class="custom-font-style-1 font-weight-semibold">Founder of Porto</p>
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-										<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque at purus et auctor. Donec eget risus vitae lacus aliquam porttitor. Morbi pellentesque fermentum ex, nec sagittis augue mollis sit amet. Pellentesque vitae metus porttitor ipsum finibus tincidunt. Praesent sit amet fringilla nisi, in porttitor eros. Vivamus iaculis mattis purus, vitae dictum felis tempor nec. Maecenas eget fermentum turpis. Fusce dignissim leo sit amet aliquet facilisis. Sed erat arcu, ultricies a justo vitae, elementum egestas justo. Nunc bibendum, ex id dapibus fringilla, nisl quam tincidunt ligula, at luctus quam magna nec sem. Suspendisse vitae tempus velit, nec congue sapien.</p>		
+
+									<div class="text-center">
+										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Zain Hussain</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Vice-President</span>
+										</a>
+										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<ul class="social-icons custom-social-icons text-center">
+														<li class="social-icons-linkedin">
+															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+																<i class="fab fa-linkedin-in"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Zain Hussain</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
+													<p class="text-2 custom-line-height-1">text edited</p>		
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="text-center">
+										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/person2.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Serkan Marasli</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Idk</span>
+										</a>
+										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<ul class="social-icons custom-social-icons text-center">
+														<li class="social-icons-linkedin">
+															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+																<i class="fab fa-linkedin-in"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Verinda Kaur Sohal</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
+													<p class="text-2 custom-line-height-1">text edited</p>		
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-							</div>
-							
-						</div>
 
+
+								<h3 class="font-weight-bold mb-2 text-capitalize">Next in hierarchy</h3>
+								<p class="mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper.</p>
+								<div class="owl-carousel owl-theme custom-owl-carousel stage-margin nav-style-1" data-plugin-options="{'items': 6, 'margin': 10, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
+									<div class="text-center">
+										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Asher Mohammed</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">President</span>
+										</a>
+										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<ul class="social-icons custom-social-icons text-center">
+														<li class="social-icons-linkedin">
+															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+																<i class="fab fa-linkedin-in"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Asher Mohammed</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Founder of Porto</p>
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
+													<p class="text-2 custom-line-height-1">text edited</p>		
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="text-center">
+										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Verinda Kaur Sohal</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Vice-President</span>
+										</a>
+										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<ul class="social-icons custom-social-icons text-center">
+														<li class="social-icons-linkedin">
+															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+																<i class="fab fa-linkedin-in"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Verinda Kaur Sohal</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
+													<p class="text-2 custom-line-height-1">text edited</p>		
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="text-center">
+										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Zain Hussain</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Vice-President</span>
+										</a>
+										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<ul class="social-icons custom-social-icons text-center">
+														<li class="social-icons-linkedin">
+															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+																<i class="fab fa-linkedin-in"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Zain Hussain</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
+													<p class="text-2 custom-line-height-1">text edited</p>		
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="text-center">
+										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/person2.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Serkan Marasli</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Idk</span>
+										</a>
+										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<ul class="social-icons custom-social-icons text-center">
+														<li class="social-icons-linkedin">
+															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+																<i class="fab fa-linkedin-in"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Verinda Kaur Sohal</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
+													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
+													<p class="text-2 custom-line-height-1">text edited</p>		
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
 					</div>
-					<div class="row">
-						<div class="col-lg-12 text-center">
-							<a href="demo-finance-team.html" class="btn btn-outline btn-primary custom-btn-style-2 font-weight-semibold text-color-dark text-uppercase mt-3">View More</a>
-						</div>	
-					</div>
-				</div>
-			</section>
+				</section>
 
 			<section class="section section-no-border custom-section-spacement-1 bg-color-tertiary m-0">
 				<div class="container">
@@ -609,7 +705,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> 
 
 			<section class="section section-no-border custom-section-spacement-1 bg-color-quaternary m-0">
 				<div class="container">
