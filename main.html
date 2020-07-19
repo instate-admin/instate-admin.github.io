@@ -72,13 +72,13 @@
 													<span class="header-top-socials p-0 h-100">
 														<ul class="d-flex align-items-center h-100 p-0">
 															<li class="list-unstyled">
-																<a href="#"><i class="fab fa-instagram text-color-quaternary text-hover-primary"></i></a>
+																<a href="https://linkedin.com/"><i class="fab fa-linkedin-in text-color-quaternary text-hover-primary"></i></a>
 															</li>
 															<li class="list-unstyled">
-																<a href="#"><i class="fab fa-facebook-f text-color-quaternary text-hover-primary"></i></a>
+																<a href="https://facebook.com/"><i class="fab fa-facebook-f text-color-quaternary text-hover-primary"></i></a>
 															</li>
 															<li class="list-unstyled">
-																<a href="#"><i class="fab fa-twitter text-color-quaternary text-hover-primary"></i></a>
+																<a href="https://twitter.com/"><i class="fab fa-twitter text-color-quaternary text-hover-primary"></i></a>
 															</li>
 														</ul>
 													</span>
@@ -111,23 +111,23 @@
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
 													<li class="dropdown-secondary">
-														<a class="nav-link active" href="demo-medical-2.html">
+														<a class="nav-link active" href="main.html#home">
 															Home
 														</a>
 													</li>
 													<li class="dropdown-secondary">
-														<a class="nav-link" href="demo-medical-2-about-us.html">
+														<a class="nav-link" href="main.html#mission">
 															Our Mission
 														</a>
 													</li>
 													<li class="dropdown-secondary">
-														<a class="nav-link" href="demo-medical-2-our-doctors.html">
+														<a class="nav-link" href="main.html#we">
 															Who We Are
 														</a>
 													</li>
 													<li class="dropdown-secondary">
-														<a class="nav-link" href="demo-medical-2-contact-us.html">
-															Contact Us
+														<a class="nav-link" href="main.html#pathways">
+															Pathways
 														</a>
 													</li>
 												</ul>
@@ -142,9 +142,17 @@
 							<div class="header-column header-column-search justify-content-center align-items-end">
 								<div class="header-nav-features">
 									<div class="header-nav-feature header-nav-features-search d-inline-flex">
-										<a href="#" class="header-nav-features-toggle" data-focus="headerSearch">
+										<a href="#search" class="header-nav-features-toggle popup-with-zoom-anim" data-focus="headerSearch">
 											<i class="fas fa-search header-nav-top-icon"></i>
 										</a>
+										<div id="search" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Well this doesn't work yet... so why don't we just pretend like you didn't click that and this never happened.</h2>	
+												</div>
+											</div>
+										</div>
+
 										<div class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed border-radius-0" id="headerTopSearchDropdown">
 											<form role="search" action="page-search-results.html" method="get">
 												<div class="simple-search input-group">
@@ -166,7 +174,7 @@
 			</header>
 
 			<div role="main" class="main">
-				<div class="slider-container bg-color-grey rev_slider_wrapper" style="height: 991px;">
+				<div id="home" class="slider-container bg-color-grey rev_slider_wrapper" style="height: 991px;">
 					<div id="revolutionSlider" class="slider rev_slider manual" data-version="5.4.8" style="height: 991px;">
 						<ul>
 							<li data-transition="fade">
@@ -217,46 +225,6 @@
 									</div>
 								</div>
 							</li>
-
-							<li data-transition="fade">
-								<img src="img/personspeak.jpg"  
-									alt=""
-									data-bgposition="center center" 
-									data-bgfit="cover" 
-									data-bgrepeat="no-repeat"
-									data-kenburns="on" 
-									data-duration="20000" 
-									data-ease="Linear.easeNone" 
-									data-scalestart="110" 
-									data-scaleend="100" 
-									data-offsetstart="250 100" 
-									class="rev-slidebg">
-
-								<div class="tp-caption main-label text-color-quaternary"
-									data-x="['left','left','left','center']"
-									data-y="center"
-									data-start="500"
-									data-hoffset="0"
-									data-voffset="['-200','-70','-70','-70']"
-									data-width="['auto']"
-									data-height="['auto']"
-									data-transform_in="y:[100%];opacity:0;s:500;"
-									data-fontsize="['38','30','30','28']"
-									data-lineheight="['48','42','42','42']"
-									data-textAlign="['left','left','left','left']"
-									style="text-shadow: 2; z-index: 5; font-size: 38px; font-weight: 900;">Consulting, Finance, and Law<br>Pathways</div>
-
-
-								<a href="http://eepurl.com/g-FU4r" target="_blank" class="btn btn-primary tp-caption bottom-label custom-bottom-label text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold"
-									data-x="['left','left','left','center']"
-									data-y="center"
-									data-start="1500"
-									data-hoffset="0"
-									data-voffset="['-50','70','70','95']"
-									data-width="['auto']"
-									data-height="['auto']"
-									data-transform_in="y:[100%];opacity:0;s:500;">Get Involved</a>
-							</li>
 						</ul>
 					</div>
 					<div class="section-funnel-layer-bottom d-none d-xl-block">
@@ -272,8 +240,8 @@
 								<div class="card-body d-flex align-items-center justify-content-between flex-column z-index-1">
 									<i class="fas fa-universal-access fa-5x"></i>
 									<h4 class="card-title mb-1 font-weight-bold">Access to Opportunities</h4>
-									<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor lacus tincidunt ut...</p>
-									<a href="#" class="font-weight-bolder text-uppercase text-decoration-none">read more +</a>
+									<p class="card-text text-center">Simple description of opportunities</p>
+									<a href="#" class="font-weight-bolder text-uppercase text-decoration-none">Learn more +</a>
 								</div>
 							</div>
 						</div>
@@ -282,8 +250,8 @@
 								<div class="card-body d-flex align-items-center justify-content-between flex-column z-index-1">
 									<i class="fas fa-user-friends fa-5x"></i>
 									<h4 class="card-title mb-1 font-weight-bold">Peer-to-Peer Mentoring</h4>
-									<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor lacus tincidunt ut...</p>
-									<a href="#" class="font-weight-bolder text-uppercase text-decoration-none">read more +</a>
+									<p class="card-text text-center">It's mentoring, between peers.</p>
+									<a href="#" class="font-weight-bolder text-uppercase text-decoration-none">Learn more +</a>
 								</div>
 							</div>
 						</div>
@@ -292,8 +260,8 @@
 								<div class="card-body d-flex align-items-center justify-content-between flex-column z-index-1">
 									<i class="fas fa-road fa-5x"></i>
 									<h4 class="card-title mb-1 font-weight-bold">Our Pathways</h4>
-									<p class="card-text text-center">Lorem</p>
-									<a href="#" class="font-weight-bolder text-uppercase text-decoration-none">read more +</a>
+									<p class="card-text text-center">Deets on different pathways</p>
+									<a href="#" class="font-weight-bolder text-uppercase text-decoration-none">Learn more +</a>
 								</div>
 							</div>
 						</div>
@@ -302,7 +270,7 @@
 
 				
 
-				<section class="more-about" data-plugin-lazyload data-plugin-options="{'threshold': 300, 'effect':'fadeIn'}" data-original="img/city.jfif">
+				<section id="mission" class="more-about" data-plugin-lazyload data-plugin-options="{'threshold': 300, 'effect':'fadeIn'}" data-original="img/city.jfif">
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12 col-lg-6 p-relative overflow-hidden col-cuttin-more-about">
@@ -310,39 +278,39 @@
 							</div>
 							<div class="col-xs-12 col-lg-6 p-relative py-5 bg-color-light z-index-1 pl-lg-5 pl-xl-0">
 								<h1 class="text-color-quaternary font-weight-bolder text-capitalize mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Our Mission</h1>
-								<p class="font-weight-semibold appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut tellus ante. Nam suscipit urna risus, fermentum commodo ipsum porta id.</p>
-								<p class="mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc.</p>
+								<p class="font-weight-semibold appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Important intro text: like woah we are important</p>
+								<p class="mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Little blurb thing, sell the service, capture the hearts of the state school students and guide them to excellence</p>
 								<div class="row counters mb-4 flex-nowrap flex-sm-wrap">
 									<div class="col-xs-4 col-sm-4 col-lg-4 mb-0 d-flex">
 										<div class="counter counter-primary appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="500">
 											<strong class="number-counter text-10" data-to="35" data-append="+">0</strong>
-											<label class="number-counter-text text-4 text-color-primary font-weight-semibold negative-ls-1">Business Year</label>
+											<label class="number-counter-text text-4 text-color-primary font-weight-semibold negative-ls-1">Years of Experience!</label>
 										</div>
 									</div>
 									<div class="col-xs-4 col-sm-4 col-lg-4 mb-0 d-flex">
 										<div class="counter counter-primary appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="750">
-											<strong class="number-counter text-10" data-to="50" data-append="+">0</strong>
-											<label class="number-counter-text text-4 text-color-primary font-weight-semibold negative-ls-1">Specialist Doctors</label>
+											<strong class="number-counter text-10" data-to="20" data-append="+">0</strong>
+											<label class="number-counter-text text-4 text-color-primary font-weight-semibold negative-ls-1">Specialist students</label>
 										</div>
 									</div>
 									<div class="col-xs-4 col-sm-4 col-lg-4 mb-0 d-flex justify-content-center">
 										<div class="counter counter-primary appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1000">
-											<strong class="number-counter text-10" data-to="200" data-append="+">0</strong>
-											<label class="number-counter-text text-4 text-color-primary font-weight-semibold negative-ls-1">Modern Rooms</label>
+											<strong class="number-counter text-10" data-to="40" data-append="+">0</strong>
+											<label class="number-counter-text text-4 text-color-primary font-weight-semibold negative-ls-1">Opportunities available</label>
 										</div>
 									</div>
 								</div>
-								<p class="mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac.</p>
+								<p class="mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">You have to be a private school student to turn this down! I MEAN LOOK AT THE STATS</p>
 								<div class="d-flex justify-content-start flex-column flex-xl-row">
 									<ul class="list list-icons list-icons-style-2 list-icons-sm custom-list-icons mb-1 mb-xl-3">
-										<li class="text-color-quaternary font-weight-bolder mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"><i class="fas fa-check text-color-quaternary"></i>Pellentesque ultricies nibh</li>
-										<li class="text-color-quaternary font-weight-bolder mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200"><i class="fas fa-check text-color-quaternary"></i>Ultricies nibh pellen</li>
-										<li class="text-color-quaternary font-weight-bolder appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300"><i class="fas fa-check text-color-quaternary"></i>Pellentesque ultricies nibh</li>
+										<li class="text-color-quaternary font-weight-bolder mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"><i class="fas fa-check text-color-quaternary"></i>I have no use for these tick boxes yet</li>
+										<li class="text-color-quaternary font-weight-bolder mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200"><i class="fas fa-check text-color-quaternary"></i>But they looked nice</li>
+										<li class="text-color-quaternary font-weight-bolder appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300"><i class="fas fa-check text-color-quaternary"></i>So I am keeping them for now</li>
 									</ul>
 									<ul class="list list-icons list-icons-style-2 list-icons-sm custom-list-icons">
-										<li class="text-color-quaternary font-weight-bolder mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400"><i class="fas fa-check text-color-quaternary"></i>Ultricies nibh pellen</li>
-										<li class="text-color-quaternary font-weight-bolder mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500"><i class="fas fa-check text-color-quaternary"></i>Pellentesque ultricies nibh</li>
-										<li class="text-color-quaternary font-weight-bolder appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600"><i class="fas fa-check text-color-quaternary"></i>Ultricies nibh pellen</li>
+										<li class="text-color-quaternary font-weight-bolder mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400"><i class="fas fa-check text-color-quaternary"></i>Words, to fill the space</li>
+										<li class="text-color-quaternary font-weight-bolder mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500"><i class="fas fa-check text-color-quaternary"></i>More waffle, to make page look full</li>
+										<li class="text-color-quaternary font-weight-bolder appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600"><i class="fas fa-check text-color-quaternary"></i>Enough waffle to feed a family</li>
 									</ul>
 								</div>
 							</div>
@@ -350,24 +318,24 @@
 					</div>
 				</section>
 
-				<section class="section section-no-border custom-section-spacement-1 bg-color-light m-0">
+				<section id="we" class="section section-no-border custom-section-spacement-1 bg-color-light m-0">
 					<div class="container">
 						<div class="row">
 							<div class="col">
 								<p class="text-uppercase mb-0">Who we are</p>
 								<h3 class="font-weight-bold mb-2 text-capitalize">Executive</h3>
-								<p class="mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper.</p>
+								<p class="mt-0">They pull up in black limos</p>
 								<div class="owl-carousel owl-theme custom-owl-carousel stage-margin nav-style-1" data-plugin-options="{'items': 6, 'margin': 10, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
 									<div class="text-center">
-										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
+										<a href="#asher" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="" class="img-fluid rounded" src="img/headshots/asher.jfif">
 											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Asher Mohammed</strong>
 											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">President</span>
 										</a>
-										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+										<div id="asher" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
 											<div class="row">
 												<div class="col-lg-4 col-sm-4">
-													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<img src="img/headshots/asher.jfif" class="img-fluid mb-4" alt="">
 													<ul class="social-icons custom-social-icons text-center">
 														<li class="social-icons-linkedin">
 															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
@@ -388,15 +356,15 @@
 									</div>
 
 									<div class="text-center">
-										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
+										<a href="#verinda" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="" class="img-fluid rounded" src="img/headshots/verinda.jpg">
 											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Verinda Kaur Sohal</strong>
 											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Vice-President</span>
 										</a>
-										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+										<div id="verinda" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
 											<div class="row">
 												<div class="col-lg-4 col-sm-4">
-													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<img src="img/headshots/verinda.jpg" class="img-fluid mb-4" alt="">
 													<ul class="social-icons custom-social-icons text-center">
 														<li class="social-icons-linkedin">
 															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
@@ -410,22 +378,22 @@
 													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
 													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
 													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-													<p class="text-2 custom-line-height-1">text edited</p>		
+													<p class="text-2 custom-line-height-1">Waffle ctd</p>
 												</div>
 											</div>
 										</div>
 									</div>
 
 									<div class="text-center">
-										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
+										<a href="#zain" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="" class="img-fluid rounded" src="img/headshots/zain.jpg">
 											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Zain Hussain</strong>
 											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Vice-President</span>
 										</a>
-										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+										<div id="zain" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
 											<div class="row">
 												<div class="col-lg-4 col-sm-4">
-													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<img src="img/headshots/zain.jpg" class="img-fluid mb-4" alt="">
 													<ul class="social-icons custom-social-icons text-center">
 														<li class="social-icons-linkedin">
 															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
@@ -439,36 +407,7 @@
 													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
 													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
 													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-													<p class="text-2 custom-line-height-1">text edited</p>		
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="text-center">
-										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img alt="Doctor" class="img-fluid rounded" src="img/person2.jpg">
-											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Serkan Marasli</strong>
-											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Idk</span>
-										</a>
-										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
-											<div class="row">
-												<div class="col-lg-4 col-sm-4">
-													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
-													<ul class="social-icons custom-social-icons text-center">
-														<li class="social-icons-linkedin">
-															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-																<i class="fab fa-linkedin-in"></i>
-															</a>
-														</li>
-													</ul>
-												</div>
-												<div class="col-lg-8 col-sm-8">
-													<h2 class="font-weight-semibold text-color-dark mb-1">Verinda Kaur Sohal</h2>
-													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
-													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
-													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-													<p class="text-2 custom-line-height-1">text edited</p>		
+													<p class="text-2 custom-line-height-1">They call me flexman</p>
 												</div>
 											</div>
 										</div>
@@ -477,132 +416,183 @@
 
 
 								<h3 class="font-weight-bold mb-2 text-capitalize">Pathway Co-ordinators</h3>
-								<p class="mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper.</p>
+								<p class="mt-0">^Explain what they do here</p>
 								<div class="owl-carousel owl-theme custom-owl-carousel stage-margin nav-style-1" data-plugin-options="{'items': 6, 'margin': 10, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
 									<div class="text-center">
-										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
-											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Asher Mohammed</strong>
-											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">President</span>
+										<a href="#rebeccaw" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="" class="img-fluid rounded" src="img/headshots/rebeccaw.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Rebecca Williamson</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">(Head) Finance Pathway Coordinator</span>
 										</a>
-										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+										<div id="rebeccaw" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
 											<div class="row">
 												<div class="col-lg-4 col-sm-4">
-													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<img src="img/headshots/rebeccaw.jpg" class="img-fluid mb-4" alt="">
 													<ul class="social-icons custom-social-icons text-center">
 														<li class="social-icons-linkedin">
-															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+															<a href="https://www.linkedin.com/in/rebecca-williamson-02945a182" target="_blank" title="Linkedin">
 																<i class="fab fa-linkedin-in"></i>
 															</a>
 														</li>
 													</ul>
 												</div>
 												<div class="col-lg-8 col-sm-8">
-													<h2 class="font-weight-semibold text-color-dark mb-1">Asher Mohammed</h2>
-													<p class="custom-font-style-1 font-weight-semibold">Founder of Porto</p>
-													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
-													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-													<p class="text-2 custom-line-height-1">text edited</p>		
+													<h2 class="font-weight-semibold text-color-dark mb-1">Rebecca Williamson</h2>
+													<p class="custom-font-style-1 font-weight-semibold">(Head) Finance Pathway Coordinator</p>
+													<p class="text-2 custom-line-height-1">I'm currently going into my final year studying <strong>English Literature</strong> at the <strong>University of Leeds</strong>. I'm also learning several languages, with my favourite being Mandarin Chinese. My secondary school experience was a time I struggled with in particular.The biggest barrier I faced was exposure or the lack of it, which led to other personal issues such as mental health which I still work on to this day.</p>	
+													<p class="text-2 custom-line-height-1">Peer mentoring in University has been an incredible, seeing my mentees achieve their dreams has been fantastic. InState is the organisation that I would have loved to have benefitted myself. Therefore, the mission is close to my heart and I am incredibly passionate about social mobility and success in my peers.</p>
+													<p class="text-2 custom-line-height-1">My career ambitions mirror with my personal ones. I want to travel, help others succeed and be happy. My work experience journey with Deutsche Bank has been outstanding. From the High Yield Programme to the Summer Internship, I have had incredible support and knowledge given to me that I will certainly treasure for years to come.</p>		
 												</div>
 											</div>
 										</div>
 									</div>
 
 									<div class="text-center">
-										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
-											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Verinda Kaur Sohal</strong>
-											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Vice-President</span>
+										<a href="#same" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/headshots/same.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Sam Edwards</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Internal Strategy Advisory Team</span>
 										</a>
-										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+										<div id="same" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
 											<div class="row">
 												<div class="col-lg-4 col-sm-4">
-													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<img src="img/headshots/same.jpg" class="img-fluid mb-4" alt="">
 													<ul class="social-icons custom-social-icons text-center">
 														<li class="social-icons-linkedin">
-															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+															<a href="https://www.linkedin.com/in/samedwards1998/" target="_blank" title="Linkedin">
 																<i class="fab fa-linkedin-in"></i>
 															</a>
 														</li>
 													</ul>
 												</div>
 												<div class="col-lg-8 col-sm-8">
-													<h2 class="font-weight-semibold text-color-dark mb-1">Verinda Kaur Sohal</h2>
-													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
-													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
-													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-													<p class="text-2 custom-line-height-1">text edited</p>		
+													<h2 class="font-weight-semibold text-color-dark mb-1">Sam Edwards</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Internal Strategy Advisory Team</p>
+													<p class="text-2 custom-line-height-1">I read <strong>History</strong> at the <strong>University of Oxford</strong>, having previously studied at a non-selective state school in Cornwall. I am currently undertaking the PGDL ahead of joining Slaughter and May in 2022. In my role on the Internal Strategy Advisory Team I support the creation of key targets and help formulate policy for inState.</p>	
+													<p class="text-2 custom-line-height-1">There’s a plenty of initiatives that seek to improve access and representation at leading universities, but too often these initiatives stop at the point of admission. At inState we take things a step further by bringing together various strands under one platform in order to support access to competitive careers.</p>
 												</div>
 											</div>
 										</div>
 									</div>
 
 									<div class="text-center">
-										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img alt="Doctor" class="img-fluid rounded" src="img/person.jpg">
-											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Zain Hussain</strong>
-											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Vice-President</span>
+										<a href="#brendanpj" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/headshots/brendanpj.jpeg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Brandan Powell-Josiah</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Consulting Lead Pathway Coordinator</span>
 										</a>
-										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+										<div id="brendanpj" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
 											<div class="row">
 												<div class="col-lg-4 col-sm-4">
-													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<img src="img/headshots/brendanpj.jpeg" class="img-fluid mb-4" alt="">
 													<ul class="social-icons custom-social-icons text-center">
 														<li class="social-icons-linkedin">
-															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+															<a href="https://www.linkedin.com/in/brandan-powell-josiah-8a3500171/" target="_blank" title="Linkedin">
 																<i class="fab fa-linkedin-in"></i>
 															</a>
 														</li>
 													</ul>
 												</div>
 												<div class="col-lg-8 col-sm-8">
-													<h2 class="font-weight-semibold text-color-dark mb-1">Zain Hussain</h2>
-													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
-													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
-													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-													<p class="text-2 custom-line-height-1">text edited</p>		
+													<h2 class="font-weight-semibold text-color-dark mb-1">Brandan Powell-Josiah</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Consulting Lead Pathway Coordinator</p>
+													<p class="text-2 custom-line-height-1">Hey guys! I’m Brandan, the Lead Pathway Coordinator for Consulting, a third year <strong>History</strong> student at the <strong>University of Oxford</strong> and an aspiring management consultant. I grew up in North London, attending state schools throughout my primary and secondary education before starting university in 2018. The experience of attending both state schools and Oxford have provided a unique insight into the stark contrast between the information, resources, and networks available to state school students and their public school counterparts. As such, I joined the team at InState to help provide participants with the insight, mentorship and connections that can put them on a level playing field knowledge and experience-wise, while inspiring them to pursue the top professional service jobs. </p>	
+													<p class="text-2 custom-line-height-1">Outside of InState, I am passionate about taking on consulting and commercial opportunities with positive social objectives: I have founded a pro-Bono consulting scheme for aspiring BAME consultants to support minority-owned businesses, acted as a strategy consultant for Oxford City Council on a sustainability project, and worked on engagements for organisations ranging from UK-based mental health charities to NGOs in Kenya and Uganda.</p>
 												</div>
 											</div>
 										</div>
 									</div>
 
 									<div class="text-center">
-										<a href="#team-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img alt="Doctor" class="img-fluid rounded" src="img/person2.jpg">
+										<a href="#hollyh" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/headshots/hollyh.jpeg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Holly Hill</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Commercial Law Pathway Coordinator</span>
+										</a>
+										<div id="hollyh" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<img src="img/headshots/hollyh.jpeg" class="img-fluid mb-4" alt="">
+													<ul class="social-icons custom-social-icons text-center">
+														<li class="social-icons-linkedin">
+															<a href="www.linkedin.com/in/hollyhill20001" target="_blank" title="Linkedin">
+																<i class="fab fa-linkedin-in"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Holly Hill</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Commercial Law Pathway Coordinator</p>
+													<p class="text-2 custom-line-height-1">I have just completed my second year studying <strong>Law and Spanish</strong> at <strong>University of Bristol</strong> and will be moving to Madrid in September for my year abroad at Universidad de Carlos III de Madrid. I grew up in Birmingham, went to a state school and am the first in my family to go to university, so I can recognise the disadvantage that students from similar backgrounds can feel when at university in their pursuit of a career in the professional services industries in comparison to those students with private school backgrounds. </p>	
+													<p class="text-2 custom-line-height-1">The main disadvantage that I felt was the lack of  professional familial connections in the commercial legal industry, meaning that it was difficult to source work experience and gain advice about what a professional career may entail and the skills required. This is one of my main aims being involved with inState - to try and level the playing field, so that true talent and hard-work can shine through, regardless of background. I hope to peruse a career in commercial law after university, having undertaken first year schemes at Clifford Chance and Shearman & Sterling, been a Campus Ambassador for Dentons and Legal Cheek, and had work experience at Weil, Gotshal & Manges and the Legal Social Mobility Partnership (now Social Mobility Business Partnership).</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="text-center">
+										<a href="#serkan" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="Doctor" class="img-fluid rounded" src="img/headshots/serkan.jpg">
 											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Serkan Marasli</strong>
-											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Idk</span>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Internal Strategy Advisory Team</span>
 										</a>
-										<div id="team-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+										<div id="serkan" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
 											<div class="row">
 												<div class="col-lg-4 col-sm-4">
-													<img src="img/person.jpg" class="img-fluid mb-4" alt="">
+													<img src="img/headshots/serkan.jpg" class="img-fluid mb-4" alt="">
 													<ul class="social-icons custom-social-icons text-center">
 														<li class="social-icons-linkedin">
-															<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+															<a href="https://www.linkedin.com/in/serkan-marasli/" target="_blank" title="Linkedin">
 																<i class="fab fa-linkedin-in"></i>
 															</a>
 														</li>
 													</ul>
 												</div>
 												<div class="col-lg-8 col-sm-8">
-													<h2 class="font-weight-semibold text-color-dark mb-1">Verinda Kaur Sohal</h2>
-													<p class="custom-font-style-1 font-weight-semibold">Vice President</p>
-													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum lacus. Fusce luctus urna ac mauris consequat, ac eleifend odio imperdiet. Sed euismod tempor orci, ullamcorper accumsan justo semper eu. Donec venenatis elit et euismod iaculis. Integer vehicula imperdiet metus at convallis. Donec ullamcorper at nunc lobortis ultricies. Nam tincidunt.</p>	
-													<p class="text-2 custom-line-height-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet faucibus congue. Donec at volutpat nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus dui.</p>
-													<p class="text-2 custom-line-height-1">text edited</p>		
+													<h2 class="font-weight-semibold text-color-dark mb-1">Serkan Marasli</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Internal Strategy Advisory Team</p>
+													<p class="text-2 custom-line-height-1">Born in London. <strong>Engineering</strong> student at <strong>Warwick University.</strong> Went to a state school growing up. Looking to start my career in investment banking. Good with numbers, even better with people.</p>
 												</div>
 											</div>
 										</div>
 									</div>
+
+									<div class="text-center">
+										<a href="#xudong" class="popup-with-zoom-anim text-decoration-none">
+											<img alt="" class="img-fluid rounded" src="img/headshots/xudong.jpg">
+											<strong class="font-weight-bolder text-dark d-block text-4 mt-3 mb-0">Xudong Wang</strong>
+											<span class="text-uppercase d-block text-default font-weight-semibold text-1 p-relative bottom-4 mb-0">Consulting Pathway Coordinator</span>
+										</a>
+										<div id="xudong" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<img src="img/headshots/xudong.jpg" class="img-fluid mb-4" alt="">
+													<ul class="social-icons custom-social-icons text-center">
+														<li class="social-icons-linkedin">
+															<a href="linkedin.com/in/xudongw20" target="_blank" title="Linkedin">
+																<i class="fab fa-linkedin-in"></i>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-8 col-sm-8">
+													<h2 class="font-weight-semibold text-color-dark mb-1">Xudong Wang</h2>
+													<p class="custom-font-style-1 font-weight-semibold">Consulting Pathway Coordinator</p>
+													<p class="text-2 custom-line-height-1">Hey guys! I am Xudong, a third-year <strong>Physicist</strong> at the <strong> University of Cambridge.</strong> Having moved to the UK at the age of 10 with minimal proficiency in English, learning a new language and being state educated in East London had its challenges. Despite that, I have excelled both academically and career-wise. I have had a wealth of experiences within consulting, from involvements in student-led consultancy groups to interning at consulting firms. As someone passionate about social mobility and understand the barrier that state-educated students face, I would love to share the knowledge I have accumulated over the years to the next generation!</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
 								</div>
 
 							</div>
 						</div>
 					</div>
 				</section>
-
             
-				<section class="medical-services py-5 p-relative overflow-hidden" data-plugin-lazyload data-plugin-options="{'threshold': 300, 'effect':'fadeIn'}" data-original="img/city.jfif">
+				<section id="pathways" class="medical-services py-5 p-relative overflow-hidden" data-plugin-lazyload data-plugin-options="{'threshold': 300, 'effect':'fadeIn'}" data-original="img/city.jfif">
 					<div class="container">
 						<div class="row">
 							<div class="col pt-4">
@@ -617,7 +607,7 @@
 										<div class="card-body py-5 d-flex flex-column justify-content-center align-items-center bg-color-light hover-effect-1">
 											<i class="fas fa-chalkboard-teacher fa-3x"></i>
 											<h4 class="card-title mb-2 text-5 font-weight-bold text-color-quaternary">Consultancy</h4>
-											<p class="card-text mb-2 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor lacus tincidunt ut...</p>
+											<p class="card-text mb-2 text-center">What do consultants do? Talk to people?</p>
 											<a href="demo-medical-2-departments-detail.html" class="font-weight-semibold text-uppercase text-decoration-none">read more +</a>
 										</div>
 									</div>
@@ -625,7 +615,7 @@
 										<div class="card-body py-5 d-flex flex-column justify-content-center align-items-center bg-color-light hover-effect-1">
 											<i class="fas fa-chart-line fa-3x"></i>
 											<h4 class="card-title mb-2 text-5 font-weight-bold text-color-quaternary">Finance</h4>
-											<p class="card-text mb-2 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor lacus tincidunt ut...</p>
+											<p class="card-text mb-2 text-center">*Money... and stuff*</p>
 											<a href="demo-medical-2-departments-detail.html" class="font-weight-semibold text-uppercase text-decoration-none">read more +</a>
 										</div>
 									</div>
@@ -633,7 +623,7 @@
 										<div class="card-body py-5 d-flex flex-column justify-content-center align-items-center bg-color-light hover-effect-1">
 											<i class="fas fa-balance-scale-right fa-3x"></i>
 											<h4 class="card-title mb-2 text-5 font-weight-bold text-color-quaternary">Law</h4>
-											<p class="card-text mb-2 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor lacus tincidunt ut...</p>
+											<p class="card-text mb-2 text-center">*Explain what law is here*</p>
 											<a href="demo-medical-2-departments-detail.html" class="font-weight-semibold text-uppercase text-decoration-none">read more +</a>
 										</div>
 									</div>
@@ -693,27 +683,19 @@
 					<div class="col-sm-6 col-lg-3 footer-column footer-column-get-in-touch">
 						<h4 class="mb-4 text-uppercase">Get in Touch</h4>
 						<div class="info custom-info mb-4">
-							<div class="custom-info-block custom-info-block-address">
-								<span class="text-color-default font-weight-bolder text-uppercase title-custom-info-block title-custom-info-block-address">Address</span>
-								<span class="font-weight-normal text-color-light text-custom-info-block p-relative bottom-6 text-custom-info-block-address">123 Street Name, City, England</span>
-							</div>
-							<div class="custom-info-block custom-info-block-phone">
-								<span class="text-color-default font-weight-bolder text-uppercase title-custom-info-block title-custom-info-block-phone">Phone</span>
-								<span class="font-weight-normal text-color-light text-custom-info-block p-relative bottom-6 text-custom-info-block-phone">Toll Free <a href="tel:+1234567890" class="text-color-light">(123) 456-7890</a></span>
-							</div>
 							<div class="custom-info-block custom-info-block-email">
 								<span class="text-color-default font-weight-bolder text-uppercase title-custom-info-block title-custom-info-block-email">Email</span>
-								<span class="font-weight-normal text-color-light text-custom-info-block p-relative bottom-6 text-custom-info-block-email"><a class="text-color-light" href="mailto:mail@example.com">mail@example.com</a></span>
+								<span class="font-weight-normal text-color-light text-custom-info-block p-relative bottom-6 text-custom-info-block-email"><a class="text-color-light" href="mailto:info@instate.com">info@instate.com</a></span>
 							</div>
-							<div class="custom-info-block custom-info-block-working-days">
+							<!-- <div class="custom-info-block custom-info-block-working-days">
 								<span class="text-color-default font-weight-bolder text-uppercase title-custom-info-block title-custom-info-block-working-days">Working Days/Hours</span>
 								<span class="font-weight-normal text-color-light text-custom-info-block text-custom-info-block-working-days">Mon - Sun / 9:00AM - 8:00PM</span>
-							</div>
+							</div> -->
 						</div>
 						<ul class="social-icons">
-							<li class="social-icons-instagram">
-								<a href="http://www.instagram.com/" target="_blank" title="Instagram">
-									<i class="fab fa-instagram text-4 font-weight-semibold text-hover-primary"></i>
+							<li class="social-icons-linkedin">
+								<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+									<i class="fab fa-linkedin-in text-4 font-weight-semibold text-hover-primary"></i>
 								</a>
 							</li>
 							<li class="social-icons-twitter">
@@ -730,73 +712,40 @@
 					</div>
 					<div class="col-sm-6 pt-5 pt-md-0 col-lg-4">
 						<div class="nav-footer-container">
-							<h4 class="mb-4 text-uppercase">Medical Services</h4>
+							<h4 class="mb-4 text-uppercase">Quicklinks</h4>
 							<div class="nav-footer d-flex">
 								<ul>
 									<li>
-										<a href="#">Home</a>
+										<a href="http://eepurl.com/g-FU4r" target="_blank">Subscribe to mailing list</a>
 									</li>
 									<li>
-										<a href="#">About Us</a>
+										<a href="#video" class="popup-with-zoom-anim">Watch our video</a>
 									</li>
 									<li>
-										<a href="#">Our Doctors</a>
+										<a href="#">More options</a>
 									</li>
 									<li>
-										<a href="#">Departments</a>
+										<a href="#">Write here</a>
 									</li>
 									<li>
-										<a href="#">Overview</a>
+										<a href="#">I'm tired</a>
 									</li>
 									<li>
-										<a href="#">Cardiology</a>
-									</li>
-									<li>
-										<a href="#">Gastroenterology</a>
-									</li>
-									<li>
-										<a href="#">Pulmonology</a>
-									</li>
-									<li>
-										<a href="#">Dental Care</a>
-									</li>
-									<li>
-										<a href="#">Gynecology</a>
-									</li>										
-								</ul>
-								<ul class="pl-4">
-									<li>
-										<a href="#">Hepatology</a>
-									</li>
-									<li>
-										<a href="#">Gastroenterology</a>
-									</li>
-									<li>
-										<a href="#">Pulmonology</a>
-									</li>
-									<li>
-										<a href="#">Blog</a>
-									</li>
-									<li>
-										<a href="#">Contact Us</a>
-									</li>
+										<a href="#">Pls</a>
+									</li>									
 								</ul>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-12 pt-4 pt-lg-0 col-lg-3 text-left ml-lg-auto footer-column footer-column-opening-hours">
-						<h4 class="mb-4 text-uppercase">Opening Hours</h4>
+						<h4 class="mb-4 text-uppercase">In case you needed it</h4>
 						<div class="info custom-info pt-0">
-							<span>Mon-Fri</span>
-							<span>8:30 am to 5:00 pm</span>
+							<span>Here's another</span>
+							<span>Columns</span>
 						</div>
 						<div class="info custom-info">
-							<span>Saturday</span>
-							<span>9:30 am to 1:00 pm</span>
-						</div>
-						<div class="info custom-info pb-0 border-bottom-0">
-							<span>Sunday</span>
-							<span>Closed</span>
+							<span>Which you may</span>
+							<span>populate with data</span>
 						</div>
 					</div>
 				</div>
@@ -804,7 +753,7 @@
 			<div class="footer-copyright pt-3 pb-3 container bg-color-quaternary">
 				<div class="row">
 					<div class="col-lg-12 text-center m-0 pb-4">
-						<p class="text-color-default">Porto Medical. ©  2020.  All Rights Reserved</p>
+						<p class="text-color-default">Copyright D&D inState ©  2020.  All Rights Reserved</p>
 					</div>
 				</div>
 			</div>

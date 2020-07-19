@@ -5,6 +5,11 @@
 /*
 * Container
 */
+
+html {
+  scroll-behavior: smooth;
+}
+
 @media (min-width: 1240px) {
 	.container {
 		max-width: 1240px !important;
