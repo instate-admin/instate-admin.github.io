@@ -262,6 +262,11 @@ html .bg-dark {
 	background-color: #212529 !important;
 }
 
+html .bg-color-midnight-blue,
+html .bg-midnight-blue {
+	background-color: #141239 !important;
+}
+
 html .bg-color-hover-dark:hover,
 html .bg-hover-dark:hover {
 	background-color: #212529 !important;
