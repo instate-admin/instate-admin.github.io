@@ -3157,6 +3157,10 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 	background-color: #F7F7F7 !important;
 }
 
+.bg-color-blue {
+	background-color: #5dbcd2;
+}
+
 .bg-color-grey-scale-1 {
 	background-color: #EDEDED !important;
 }
