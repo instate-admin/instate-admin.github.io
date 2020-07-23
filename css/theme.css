@@ -5891,6 +5891,10 @@ html.dark .text-muted {
 	color: #FFF !important;
 }
 
+#footer a:not(.btn).text-color-grey {
+	color: #F8F8F8 !important;
+}
+
 #footer a:not(.btn).text-color-light:hover {
 	color: #e6e6e6 !important;
 }
